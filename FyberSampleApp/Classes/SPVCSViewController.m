@@ -69,6 +69,7 @@
 
 - (void)virtualCurrencyConnector:(SPVirtualCurrencyServerConnector *)vcConnector
   didReceiveDeltaOfCoinsResponse:(double)deltaOfCoins
+                      currencyId:(NSString *)currencyId
                     currencyName:(NSString *)currencyName
              latestTransactionId:(NSString *)transactionId
 {
