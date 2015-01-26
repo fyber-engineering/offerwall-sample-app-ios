@@ -110,7 +110,7 @@
             errorType = @"ERROR_OTHER";
             break;
         default:
-            errorType = [NSString stringWithFormat:@"%d", error];
+            errorType = [NSString stringWithFormat:@"%@", @(error)];
             break;
     }
     
