@@ -10,11 +10,6 @@
 		1D3623260D0F684500981E51 /* SPSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SPSampleAppDelegate.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		3DCB2DBC1A7173B7003457AD /* libSponsorPaySDK-7.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCB2D921A7173B7003457AD /* libSponsorPaySDK-7.1.0.a */; };
-		3DCB2DBD1A7173B7003457AD /* SPBackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB2D941A7173B7003457AD /* SPBackIcon@2x.png */; };
-		3DCB2DBE1A7173B7003457AD /* SPBackIconiPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB2D951A7173B7003457AD /* SPBackIconiPad@2x.png */; };
-		3DCB2DBF1A7173B7003457AD /* SPBackIconiPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB2D961A7173B7003457AD /* SPBackIconiPhone@2x.png */; };
-		3DCB2DC01A7173B7003457AD /* SPCloseX.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB2D971A7173B7003457AD /* SPCloseX.png */; };
 		3E1882C915ECCC700021DFBC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1882C815ECCC700021DFBC /* CoreTelephony.framework */; };
 		3E1882CB15ECCCD10021DFBC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1882CA15ECCCD10021DFBC /* SystemConfiguration.framework */; };
 		3E312161160390700069F7AF /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E312160160390700069F7AF /* settings.png */; };
@@ -34,7 +29,6 @@
 		6391B3EB1744F48000F88E72 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6391B3EA1744F48000F88E72 /* CoreMedia.framework */; };
 		6391B3ED1744F48600F88E72 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6391B3EC1744F48600F88E72 /* AVFoundation.framework */; };
 		6391B3EF1744F4B000F88E72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F1A9CC164C0D1100DAC17A /* QuartzCore.framework */; };
-		6395802313B0E3DF0024ABE7 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6395802213B0E3DF0024ABE7 /* Entitlements.plist */; };
 		6396875016A46BCF00715D14 /* dvsup_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 6396874E16A46BCF00715D14 /* dvsup_@2X.png */; };
 		6396875116A46BCF00715D14 /* dvsup.png in Resources */ = {isa = PBXBuildFile; fileRef = 6396874F16A46BCF00715D14 /* dvsup.png */; };
 		6396875416A46D0E00715D14 /* lined_paper_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 6396875216A46D0E00715D14 /* lined_paper_@2X.png */; };
@@ -93,58 +87,16 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* SPSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSampleAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* SPSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSampleAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* SponsorPayTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SponsorPayTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* FyberSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FyberSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		310b3f2360206329a21f6ce5 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		32CA4F630368D1EE00C91783 /* SponsorPayTestApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SponsorPayTestApp_Prefix.pch; sourceTree = "<group>"; };
-		3DCB2D921A7173B7003457AD /* libSponsorPaySDK-7.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libSponsorPaySDK-7.1.0.a"; sourceTree = "<group>"; };
-		3DCB2D941A7173B7003457AD /* SPBackIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SPBackIcon@2x.png"; sourceTree = "<group>"; };
-		3DCB2D951A7173B7003457AD /* SPBackIconiPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SPBackIconiPad@2x.png"; sourceTree = "<group>"; };
-		3DCB2D961A7173B7003457AD /* SPBackIconiPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SPBackIconiPhone@2x.png"; sourceTree = "<group>"; };
-		3DCB2D971A7173B7003457AD /* SPCloseX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SPCloseX.png; sourceTree = "<group>"; };
-		3DCB2D981A7173B7003457AD /* SP_SDK_versions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SP_SDK_versions.h; sourceTree = "<group>"; };
-		3DCB2D991A7173B7003457AD /* SPBaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaseNetwork.h; sourceTree = "<group>"; };
-		3DCB2D9A1A7173B7003457AD /* SPBaseURLProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaseURLProvider.h; sourceTree = "<group>"; };
-		3DCB2D9B1A7173B7003457AD /* SPBrandEngageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBrandEngageClient.h; sourceTree = "<group>"; };
-		3DCB2D9C1A7173B7003457AD /* SPBrandEngageClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBrandEngageClientDelegate.h; sourceTree = "<group>"; };
-		3DCB2D9D1A7173B7003457AD /* SPBrandEngageClientStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBrandEngageClientStatus.h; sourceTree = "<group>"; };
-		3DCB2D9E1A7173B7003457AD /* SPBrandEngageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBrandEngageViewController.h; sourceTree = "<group>"; };
-		3DCB2D9F1A7173B7003457AD /* SPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPConstants.h; sourceTree = "<group>"; };
-		3DCB2DA01A7173B7003457AD /* SPCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCredentials.h; sourceTree = "<group>"; };
-		3DCB2DA11A7173B7003457AD /* SPInterstitialClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPInterstitialClient.h; sourceTree = "<group>"; };
-		3DCB2DA21A7173B7003457AD /* SPInterstitialClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPInterstitialClientDelegate.h; sourceTree = "<group>"; };
-		3DCB2DA31A7173B7003457AD /* SPInterstitialNetworkAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPInterstitialNetworkAdapter.h; sourceTree = "<group>"; };
-		3DCB2DA41A7173B7003457AD /* SPLogAppender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLogAppender.h; sourceTree = "<group>"; };
-		3DCB2DA51A7173B7003457AD /* SPLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLogger.h; sourceTree = "<group>"; };
-		3DCB2DA61A7173B7003457AD /* SPLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLogLevel.h; sourceTree = "<group>"; };
-		3DCB2DA71A7173B7003457AD /* SPOfferWallStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPOfferWallStatus.h; sourceTree = "<group>"; };
-		3DCB2DA81A7173B7003457AD /* SPOfferWallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPOfferWallViewController.h; sourceTree = "<group>"; };
-		3DCB2DA91A7173B7003457AD /* SPOfferWallViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPOfferWallViewControllerDelegate.h; sourceTree = "<group>"; };
-		3DCB2DAA1A7173B7003457AD /* SponsorPaySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SponsorPaySDK.h; sourceTree = "<group>"; };
-		3DCB2DAB1A7173B7003457AD /* SPRandomID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRandomID.h; sourceTree = "<group>"; };
-		3DCB2DAC1A7173B7003457AD /* SPReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPReachability.h; sourceTree = "<group>"; };
-		3DCB2DAD1A7173B7003457AD /* SPRewardedVideoNetworkAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRewardedVideoNetworkAdapter.h; sourceTree = "<group>"; };
-		3DCB2DAE1A7173B7003457AD /* SPSemanticVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSemanticVersion.h; sourceTree = "<group>"; };
-		3DCB2DAF1A7173B7003457AD /* SPSystemLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSystemLogger.h; sourceTree = "<group>"; };
-		3DCB2DB01A7173B7003457AD /* SPSystemVersionChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSystemVersionChecker.h; sourceTree = "<group>"; };
-		3DCB2DB11A7173B7003457AD /* SPTPNGenericAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTPNGenericAdapter.h; sourceTree = "<group>"; };
-		3DCB2DB21A7173B7003457AD /* SPTPNMediationTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTPNMediationTypes.h; sourceTree = "<group>"; };
-		3DCB2DB31A7173B7003457AD /* SPTPNVideoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTPNVideoAdapter.h; sourceTree = "<group>"; };
-		3DCB2DB41A7173B7003457AD /* SPURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPURLGenerator.h; sourceTree = "<group>"; };
-		3DCB2DB51A7173B7003457AD /* SPUrlParametersProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUrlParametersProvider.h; sourceTree = "<group>"; };
-		3DCB2DB61A7173B7003457AD /* SPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUser.h; sourceTree = "<group>"; };
-		3DCB2DB71A7173B7003457AD /* SPUserConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUserConstants.h; sourceTree = "<group>"; };
-		3DCB2DB81A7173B7003457AD /* SPVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPVideoPlayerViewController.h; sourceTree = "<group>"; };
-		3DCB2DB91A7173B7003457AD /* SPVirtualCurrencyConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPVirtualCurrencyConnectionDelegate.h; sourceTree = "<group>"; };
-		3DCB2DBA1A7173B7003457AD /* SPVirtualCurrencyRequestErrorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPVirtualCurrencyRequestErrorType.h; sourceTree = "<group>"; };
-		3DCB2DBB1A7173B7003457AD /* SPVirtualCurrencyServerConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPVirtualCurrencyServerConnector.h; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* FyberSampleApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FyberSampleApp_Prefix.pch; sourceTree = "<group>"; };
 		3E1882C815ECCC700021DFBC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		3E1882CA15ECCCD10021DFBC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3E312160160390700069F7AF /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		3E6E1C37160B4ADE002A54A4 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		3EFE7EA517B237D100DDC971 /* SponsorPayTestApp-cal_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SponsorPayTestApp-cal_Prefix.pch"; sourceTree = "<group>"; };
 		5BB2915619B4BE9200B27BDB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		6322ED6A18C4A03200F19E1D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		632596A81825A784006037AB /* SPInterstitialLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPInterstitialLaunchViewController.h; sourceTree = "<group>"; };
@@ -163,7 +115,6 @@
 		6391B3E81744F47800F88E72 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		6391B3EA1744F48000F88E72 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		6391B3EC1744F48600F88E72 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		6395802213B0E3DF0024ABE7 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		6396874E16A46BCF00715D14 /* dvsup_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dvsup_@2X.png"; sourceTree = "<group>"; };
 		6396874F16A46BCF00715D14 /* dvsup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dvsup.png; sourceTree = "<group>"; };
 		6396875216A46D0E00715D14 /* lined_paper_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lined_paper_@2X.png"; sourceTree = "<group>"; };
@@ -194,7 +145,7 @@
 		63F1A9CC164C0D1100DAC17A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		63FA33781802C129009AEE2E /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
 		65864A4D18AA5CA400DA2D0E /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		8D1107310486CEB800E47090 /* SponsorPayTestApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SponsorPayTestApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FyberSampleApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FyberSampleApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		8F63BE7C1934983A0014B151 /* SPStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPStrings.h; sourceTree = "<group>"; };
 		8F63BE7D1934983A0014B151 /* SPStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPStrings.m; sourceTree = "<group>"; };
 		8F63BE8119349B740014B151 /* SPBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBlocks.h; sourceTree = "<group>"; };
@@ -260,7 +211,6 @@
 				6366AB9B174504E00087C06E /* EventKitUI.framework in Frameworks */,
 				6391B3EF1744F4B000F88E72 /* QuartzCore.framework in Frameworks */,
 				3E1882C915ECCC700021DFBC /* CoreTelephony.framework in Frameworks */,
-				3DCB2DBC1A7173B7003457AD /* libSponsorPaySDK-7.1.0.a in Frameworks */,
 				633906E51664E2A900DC29C8 /* CoreGraphics.framework in Frameworks */,
 				6391B3ED1744F48600F88E72 /* AVFoundation.framework in Frameworks */,
 				6391B3EB1744F48000F88E72 /* CoreMedia.framework in Frameworks */,
@@ -290,7 +240,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* SponsorPayTestApp.app */,
+				1D6058910D05DD3D006BFB54 /* FyberSampleApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -298,10 +248,9 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				5B784598196D792D001BF1A2 /* SponsorPayTestApp */,
+				5B784598196D792D001BF1A2 /* FyberSampleApp */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				3DCB2D911A7173B7003457AD /* sponsorpay-sdk-lib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -309,9 +258,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				6395802213B0E3DF0024ABE7 /* Entitlements.plist */,
-				3EFE7EA517B237D100DDC971 /* SponsorPayTestApp-cal_Prefix.pch */,
-				32CA4F630368D1EE00C91783 /* SponsorPayTestApp_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* FyberSampleApp_Prefix.pch */,
 				63EB0A96134C535A001DC807 /* main.m */,
 			);
 			name = "Other Sources";
@@ -322,7 +269,7 @@
 			children = (
 				5B784596196D75A8001BF1A2 /* Images */,
 				5B784597196D75C2001BF1A2 /* Interfaces */,
-				8D1107310486CEB800E47090 /* SponsorPayTestApp-Info.plist */,
+				8D1107310486CEB800E47090 /* FyberSampleApp-Info.plist */,
 				AE46E1B7197D442100011051 /* SPUserSettingsViewController.xib */,
 				AE68BAD5198276C4000E7384 /* SPTextFieldCell.xib */,
 				AE68BAD719827702000E7384 /* SPSwitchCell.xib */,
@@ -368,63 +315,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3DCB2D911A7173B7003457AD /* sponsorpay-sdk-lib */ = {
-			isa = PBXGroup;
-			children = (
-				3DCB2D921A7173B7003457AD /* libSponsorPaySDK-7.1.0.a */,
-				3DCB2D931A7173B7003457AD /* Resources */,
-				3DCB2D981A7173B7003457AD /* SP_SDK_versions.h */,
-				3DCB2D991A7173B7003457AD /* SPBaseNetwork.h */,
-				3DCB2D9A1A7173B7003457AD /* SPBaseURLProvider.h */,
-				3DCB2D9B1A7173B7003457AD /* SPBrandEngageClient.h */,
-				3DCB2D9C1A7173B7003457AD /* SPBrandEngageClientDelegate.h */,
-				3DCB2D9D1A7173B7003457AD /* SPBrandEngageClientStatus.h */,
-				3DCB2D9E1A7173B7003457AD /* SPBrandEngageViewController.h */,
-				3DCB2D9F1A7173B7003457AD /* SPConstants.h */,
-				3DCB2DA01A7173B7003457AD /* SPCredentials.h */,
-				3DCB2DA11A7173B7003457AD /* SPInterstitialClient.h */,
-				3DCB2DA21A7173B7003457AD /* SPInterstitialClientDelegate.h */,
-				3DCB2DA31A7173B7003457AD /* SPInterstitialNetworkAdapter.h */,
-				3DCB2DA41A7173B7003457AD /* SPLogAppender.h */,
-				3DCB2DA51A7173B7003457AD /* SPLogger.h */,
-				3DCB2DA61A7173B7003457AD /* SPLogLevel.h */,
-				3DCB2DA71A7173B7003457AD /* SPOfferWallStatus.h */,
-				3DCB2DA81A7173B7003457AD /* SPOfferWallViewController.h */,
-				3DCB2DA91A7173B7003457AD /* SPOfferWallViewControllerDelegate.h */,
-				3DCB2DAA1A7173B7003457AD /* SponsorPaySDK.h */,
-				3DCB2DAB1A7173B7003457AD /* SPRandomID.h */,
-				3DCB2DAC1A7173B7003457AD /* SPReachability.h */,
-				3DCB2DAD1A7173B7003457AD /* SPRewardedVideoNetworkAdapter.h */,
-				3DCB2DAE1A7173B7003457AD /* SPSemanticVersion.h */,
-				3DCB2DAF1A7173B7003457AD /* SPSystemLogger.h */,
-				3DCB2DB01A7173B7003457AD /* SPSystemVersionChecker.h */,
-				3DCB2DB11A7173B7003457AD /* SPTPNGenericAdapter.h */,
-				3DCB2DB21A7173B7003457AD /* SPTPNMediationTypes.h */,
-				3DCB2DB31A7173B7003457AD /* SPTPNVideoAdapter.h */,
-				3DCB2DB41A7173B7003457AD /* SPURLGenerator.h */,
-				3DCB2DB51A7173B7003457AD /* SPUrlParametersProvider.h */,
-				3DCB2DB61A7173B7003457AD /* SPUser.h */,
-				3DCB2DB71A7173B7003457AD /* SPUserConstants.h */,
-				3DCB2DB81A7173B7003457AD /* SPVideoPlayerViewController.h */,
-				3DCB2DB91A7173B7003457AD /* SPVirtualCurrencyConnectionDelegate.h */,
-				3DCB2DBA1A7173B7003457AD /* SPVirtualCurrencyRequestErrorType.h */,
-				3DCB2DBB1A7173B7003457AD /* SPVirtualCurrencyServerConnector.h */,
-			);
-			name = "sponsorpay-sdk-lib";
-			path = "../../ios-sdk-testapp/builds/SponsorPay_iOS_SDK_v.7.1.0/sponsorpay-sdk-lib";
-			sourceTree = "<group>";
-		};
-		3DCB2D931A7173B7003457AD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3DCB2D941A7173B7003457AD /* SPBackIcon@2x.png */,
-				3DCB2D951A7173B7003457AD /* SPBackIconiPad@2x.png */,
-				3DCB2D961A7173B7003457AD /* SPBackIconiPhone@2x.png */,
-				3DCB2D971A7173B7003457AD /* SPCloseX.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		5B784596196D75A8001BF1A2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,14 +343,14 @@
 			name = Interfaces;
 			sourceTree = "<group>";
 		};
-		5B784598196D792D001BF1A2 /* SponsorPayTestApp */ = {
+		5B784598196D792D001BF1A2 /* FyberSampleApp */ = {
 			isa = PBXGroup;
 			children = (
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 			);
-			name = SponsorPayTestApp;
+			path = FyberSampleApp;
 			sourceTree = "<group>";
 		};
 		5B784599196D7B30001BF1A2 /* AppDelegate */ = {
@@ -634,9 +524,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* SponsorPayTestApp */ = {
+		1D6058900D05DD3D006BFB54 /* FyberSampleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SponsorPayTestApp" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FyberSampleApp" */;
 			buildPhases = (
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
@@ -646,9 +536,9 @@
 			);
 			dependencies = (
 			);
-			name = SponsorPayTestApp;
+			name = FyberSampleApp;
 			productName = SPPublish;
-			productReference = 1D6058910D05DD3D006BFB54 /* SponsorPayTestApp.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* FyberSampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -660,7 +550,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = SponsorPay;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SponsorPayTestApp" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FyberSampleApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -675,7 +565,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* SponsorPayTestApp */,
+				1D6058900D05DD3D006BFB54 /* FyberSampleApp */,
 			);
 		};
 /* End PBXProject section */
@@ -692,12 +582,9 @@
 				D09719821A02598200FA2DEB /* Icon.png in Resources */,
 				D09719761A02593200FA2DEB /* Icon-60.png in Resources */,
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				6395802313B0E3DF0024ABE7 /* Entitlements.plist in Resources */,
-				3DCB2DBF1A7173B7003457AD /* SPBackIconiPhone@2x.png in Resources */,
 				D09719771A02593200FA2DEB /* Icon-60@2x.png in Resources */,
 				D097197C1A02593200FA2DEB /* Icon-Small.png in Resources */,
 				632596AC1825A784006037AB /* SPInterstitialLaunchViewController.xib in Resources */,
-				3DCB2DBD1A7173B7003457AD /* SPBackIcon@2x.png in Resources */,
 				3E312161160390700069F7AF /* settings.png in Resources */,
 				D09719791A02593200FA2DEB /* Icon-76@2x.png in Resources */,
 				63D46CA81698D19800507110 /* Default-568h@2x.png in Resources */,
@@ -712,12 +599,10 @@
 				D097197B1A02593200FA2DEB /* Icon-Small-40@2x.png in Resources */,
 				63DE5B7416A412E30094A251 /* SPMBEViewController.xib in Resources */,
 				D074D6BA1816C00C00A0392B /* MainWindow-iPad.xib in Resources */,
-				3DCB2DC01A7173B7003457AD /* SPCloseX.png in Resources */,
 				6396875016A46BCF00715D14 /* dvsup_@2X.png in Resources */,
 				AE46E1B8197D442100011051 /* SPUserSettingsViewController.xib in Resources */,
 				6396875116A46BCF00715D14 /* dvsup.png in Resources */,
 				6396875416A46D0E00715D14 /* lined_paper_@2X.png in Resources */,
-				3DCB2DBE1A7173B7003457AD /* SPBackIconiPad@2x.png in Resources */,
 				6396875516A46D0E00715D14 /* lined_paper.png in Resources */,
 				63FA33791802C129009AEE2E /* clear.png in Resources */,
 			);
@@ -771,7 +656,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = SponsorPayTestApp_Prefix.pch;
+				GCC_PREFIX_HEADER = FyberSampleApp/FyberSampleApp_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"CONFIGURATION_$(CONFIGURATION)",
 					"DEBUG=1",
@@ -779,7 +664,7 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "SponsorPayTestApp-Info.plist";
+				INFOPLIST_FILE = "FyberSampleApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -793,7 +678,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_NAME = SponsorPayTestApp;
+				PRODUCT_NAME = FyberSampleApp;
 				PROVISIONING_PROFILE = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -815,14 +700,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = SponsorPayTestApp_Prefix.pch;
+				GCC_PREFIX_HEADER = FyberSampleApp/FyberSampleApp_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"CONFIGURATION_$(CONFIGURATION)",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "SponsorPayTestApp-Info.plist";
+				INFOPLIST_FILE = "FyberSampleApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -835,7 +720,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_NAME = SponsorPayTestApp;
+				PRODUCT_NAME = FyberSampleApp;
 				PROVISIONING_PROFILE = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -876,21 +761,21 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = Entitlements.plist;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = SponsorPayTestApp_Prefix.pch;
+				GCC_PREFIX_HEADER = FyberSampleApp/FyberSampleApp_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"CONFIGURATION_$(CONFIGURATION)",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "SponsorPayTestApp-Info.plist";
+				INFOPLIST_FILE = "FyberSampleApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -903,7 +788,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_NAME = SponsorPayTestApp;
+				PRODUCT_NAME = FyberSampleApp;
 				PROVISIONING_PROFILE = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -961,7 +846,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SponsorPayTestApp" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FyberSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -971,7 +856,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SponsorPayTestApp" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FyberSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
