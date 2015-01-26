@@ -49,7 +49,6 @@
 		63DE5B7316A412E30094A251 /* SPMBEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DE5B7116A412E20094A251 /* SPMBEViewController.m */; };
 		63DE5B7416A412E30094A251 /* SPMBEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63DE5B7216A412E30094A251 /* SPMBEViewController.xib */; };
 		63EB0A97134C535A001DC807 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EB0A96134C535A001DC807 /* main.m */; };
-		63FA33791802C129009AEE2E /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FA33781802C129009AEE2E /* clear.png */; };
 		8F63BE7E1934983A0014B151 /* SPStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F63BE7D1934983A0014B151 /* SPStrings.m */; };
 		8F63BE8319349B740014B151 /* SPBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F63BE8219349B740014B151 /* SPBlocks.m */; };
 		8F8F3A4E193F1BD400BF015C /* SPTestAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F3A4D193F1BD400BF015C /* SPTestAppSettings.m */; };
@@ -143,7 +142,6 @@
 		63EB0A96134C535A001DC807 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63F1A9CA164C0C6200DAC17A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		63F1A9CC164C0D1100DAC17A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		63FA33781802C129009AEE2E /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
 		65864A4D18AA5CA400DA2D0E /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* FyberSampleApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FyberSampleApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		8F63BE7C1934983A0014B151 /* SPStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPStrings.h; sourceTree = "<group>"; };
@@ -321,7 +319,6 @@
 				D07E59641A0275AB004B20A7 /* Icons */,
 				6399DCEC16A45B6F00C81A97 /* patterns */,
 				63D46CA71698D19800507110 /* Default-568h@2x.png */,
-				63FA33781802C129009AEE2E /* clear.png */,
 				3E312160160390700069F7AF /* settings.png */,
 			);
 			name = Images;
@@ -604,7 +601,6 @@
 				6396875116A46BCF00715D14 /* dvsup.png in Resources */,
 				6396875416A46D0E00715D14 /* lined_paper_@2X.png in Resources */,
 				6396875516A46D0E00715D14 /* lined_paper.png in Resources */,
-				63FA33791802C129009AEE2E /* clear.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
