@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'SPPublish' target in the 'SPPublish' project
+//
+
+#ifdef __OBJC__
+    #import "SponsorPaySDKTest-Prefix.pch"
+
+    #define kSPShouldNotSendPlainMACAddress
+    #define kSPShouldNotSendMD5MacAddress
+    #define kSPShouldNotSendSHA1MacAddress
+#endif
