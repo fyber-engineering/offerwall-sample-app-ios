@@ -35,6 +35,7 @@
                     <tabBarItem key="tabBarItem" title="OfferWall" id="25"/>
                 </viewController>
                 <viewController title="Interstitial" automaticallyAdjustsScrollViewInsets="NO" id="UOz-Oa-CjB" userLabel="Interstitial Launch View Controller" customClass="SPInterstitialLaunchViewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <tabBarItem key="tabBarItem" title="Interstitial" id="NbB-TA-Esc"/>
                     <toolbarItems/>
                 </viewController>
