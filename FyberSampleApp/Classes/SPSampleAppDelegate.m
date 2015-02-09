@@ -39,12 +39,7 @@
 
 - (void)customizeAppearance
 {
-    // Configures the appearance of UIBarButtonItem
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
-        [[UIBarButtonItem appearance] setTintColor:[UIColor whiteColor]];
-    } else {
-        [[UIBarButtonItem appearance] setTintColor:[UIColor blackColor]];
-    }
+
 }
 
 @end
