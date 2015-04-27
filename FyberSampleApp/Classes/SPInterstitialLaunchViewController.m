@@ -113,5 +113,19 @@
     [alertView show];
 }
 
+NSString* SPStringFromInterstitialDismissReason(SPInterstitialDismissReason reason)
+{
+    switch (reason) {
+        case SPInterstitialDismissReasonUnknown:
+            return @"SPInterstitialDismissReasonUnknown";
+        case SPInterstitialDismissReasonUserClickedOnAd:
+            return @"SPInterstitialDismissReasonUserClickedOnAd";
+        case SPInterstitialDismissReasonUserClosedAd:
+            return @"SPInterstitialDismissReasonUserClosedAd";
+        default:
+            return @"SPInterstitialDismissReasonUnknown";
+    }
+}
+
 @end
 
