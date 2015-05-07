@@ -1,9 +1,7 @@
 //
-//  SPBlockBasedSettings.m
-//  SponsorPayTestApp
 //
-//  Created by Pierre Bongen on 04.06.14.
-//  Copyright (c) 2014 SponsorPay. All rights reserved.
+// Copyright (c) 2015 Fyber. All rights reserved.
+//
 //
 
 #import "SPBlockBasedSettings.h"
