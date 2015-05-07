@@ -1,9 +1,7 @@
 //
-//  SPInterstitialLaunchViewController.h
-//  SponsorPayTestApp
 //
-//  Created by David Davila on 02/11/13.
-//  Copyright (c) 2013 SponsorPay. All rights reserved.
+// Copyright (c) 2015 Fyber. All rights reserved.
+//
 //
 
 #import "SPTestAppBaseViewController.h"

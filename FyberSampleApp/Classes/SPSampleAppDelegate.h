@@ -1,8 +1,7 @@
 //
-//  SPPublishAppDelegate.h
-//  SponsorPay iOS Test App
 //
-//  Copyright 2011-2013 SponsorPay. All rights reserved.
+// Copyright (c) 2015 Fyber. All rights reserved.
+//
 //
 
 #import <UIKit/UIKit.h>
