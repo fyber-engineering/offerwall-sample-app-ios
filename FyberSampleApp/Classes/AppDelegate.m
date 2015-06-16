@@ -6,6 +6,8 @@
 
 #import "AppDelegate.h"
 
+#import "FyberSDK.h"
+
 
 @interface AppDelegate ()
 
@@ -16,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Start the SDK with the appId and a security token that you can find in
+    // the Fyber Dashboard http://dashboard.fyber.com
+    
+    [FyberSDK startWithAppId:@"22912" securityToken:@"token"];
+    
     return YES;
 }
 
