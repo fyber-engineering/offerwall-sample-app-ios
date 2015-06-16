@@ -48,7 +48,7 @@
 		5B4A18781B2AD92600C00C49 /* OfferWallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfferWallViewController.h; sourceTree = "<group>"; };
 		5B4A18791B2AD92600C00C49 /* OfferWallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfferWallViewController.m; sourceTree = "<group>"; };
 		5B4A187C1B2AD92600C00C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5B4A187E1B2AD92600C00C49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		5B4A187E1B2AD92600C00C49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5B4A18811B2AD92600C00C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5B4A18971B2ADAD700C00C49 /* RewardedVideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardedVideosViewController.h; sourceTree = "<group>"; };
 		5B4A18981B2ADAD700C00C49 /* RewardedVideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardedVideosViewController.m; sourceTree = "<group>"; };
@@ -66,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DAB3A121B3018F60093FB99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B2ECDB71B2B1E42006C1B1E /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +112,7 @@
 				5B2ECDB41B2B0B0A006C1B1E /* CALayer+UIColor.h */,
 				5B2ECDB51B2B0B0A006C1B1E /* CALayer+UIColor.m */,
 			);
-			name = Categories;
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		5B2ECDC71B2B200D006C1B1E /* Classes */ = {
@@ -116,7 +124,7 @@
 				5B2ECDC61B2B2006006C1B1E /* Categories */,
 				5B2ECDC91B2B2031006C1B1E /* Views */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		5B2ECDC81B2B2015006C1B1E /* Controllers */ = {
@@ -129,7 +137,7 @@
 				5B4A18971B2ADAD700C00C49 /* RewardedVideosViewController.h */,
 				5B4A18981B2ADAD700C00C49 /* RewardedVideosViewController.m */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		5B2ECDC91B2B2031006C1B1E /* Views */ = {
@@ -138,14 +146,14 @@
 				5B2ECDCA1B2B205A006C1B1E /* FYBNavigationBar.h */,
 				5B2ECDCB1B2B205A006C1B1E /* FYBNavigationBar.m */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5B4A18621B2AD92600C00C49 = {
 			isa = PBXGroup;
 			children = (
-				5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */,
 				5B4A186D1B2AD92600C00C49 /* FyberSampleApp */,
+				3DAB3A121B3018F60093FB99 /* Frameworks */,
 				5B4A186C1B2AD92600C00C49 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -174,7 +182,7 @@
 				5B4A186F1B2AD92600C00C49 /* Info.plist */,
 				5B4A18701B2AD92600C00C49 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +280,7 @@
 				5B4A187C1B2AD92600C00C49 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ..;
+			path = .;
 			sourceTree = "<group>";
 		};
 		5B4A18801B2AD92600C00C49 /* LaunchScreen.xib */ = {
@@ -281,7 +289,7 @@
 				5B4A18811B2AD92600C00C49 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = ..;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -375,8 +383,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = FyberSampleApp/Info.plist;
+				INFOPLIST_FILE = "FyberSampleApp/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,8 +397,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = FyberSampleApp/Info.plist;
+				INFOPLIST_FILE = "FyberSampleApp/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

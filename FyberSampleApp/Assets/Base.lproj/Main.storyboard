@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -24,7 +24,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="SJ5-bq-cCs"/>
                                 </constraints>
-                                <color key="barTintColor" red="0.21960784310000001" green="0.18039215689999999" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="20"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -36,7 +36,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HF2-f4-2UZ">
                                 <rect key="frame" x="200" y="200" width="200" height="200"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.21960784310000001" green="0.18039215689999999" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="5cB-YA-vQ0"/>
                                     <constraint firstAttribute="height" constant="200" id="KDD-WK-wuE"/>
@@ -105,7 +105,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="EO1-6L-RGg"/>
                                 </constraints>
-                                <color key="barTintColor" red="0.21960784310000001" green="0.18039215689999999" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="20"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -117,7 +117,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fqJ-Bb-gyu">
                                 <rect key="frame" x="200" y="200" width="200" height="200"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.21960784310000001" green="0.18039215689999999" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="HNk-WZ-eox"/>
                                     <constraint firstAttribute="width" constant="200" id="g9G-3t-Wjc"/>
@@ -186,7 +186,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="Jop-x3-Vvn"/>
                                 </constraints>
-                                <color key="barTintColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="20"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -198,7 +198,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7aI-Z7-Eqx">
                                 <rect key="frame" x="200" y="200" width="200" height="200"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.21960784310000001" green="0.18039215689999999" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="Ab0-7n-UY5"/>
                                     <constraint firstAttribute="width" constant="200" id="yBH-bn-TL6"/>
@@ -259,6 +259,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="1" green="0.70980392156862748" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
