@@ -66,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DAB3A121B3018F60093FB99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B2ECDB71B2B1E42006C1B1E /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,8 +152,8 @@
 		5B4A18621B2AD92600C00C49 = {
 			isa = PBXGroup;
 			children = (
-				5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */,
 				5B4A186D1B2AD92600C00C49 /* FyberSampleApp */,
+				3DAB3A121B3018F60093FB99 /* Frameworks */,
 				5B4A186C1B2AD92600C00C49 /* Products */,
 			);
 			sourceTree = "<group>";
