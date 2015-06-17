@@ -6,11 +6,11 @@
 
 
 #import "InterstitialsViewController.h"
+#import "FyberSDK.h"
 
 
-@interface InterstitialsViewController ()
+@interface InterstitialsViewController () <FYBInterstitialControllerDelegate>
 
-@property (nonatomic, weak) IBOutlet UIButton *requestButton;
 
 @end
 
@@ -35,13 +35,25 @@
 - (IBAction)requestInterstitial:(id)sender
 {
     NSLog(@"Requesting Interstitial");
+    // Fetch the Interstitial Controller
+    FYBInterstitialController *interstitialController = [FyberSDK interstitialController];
+    interstitialController.delegate = self;
+    [interstitialController requestInterstitial];
 }
 
-- (IBAction)showInterstitial:(id)sender
+
+#pragma mark - FYBInterstitialControllerDelegate
+
+- (void)interstitialControllerDidReceiveInterstitial:(FYBInterstitialController *)interstitialController
 {
     NSLog(@"Showing Interstitial");
+    [interstitialController presentInterstitialFromViewController:self];
 }
 
+- (void)interstitialController:(FYBInterstitialController *)interstitialController didFailToReceiveInterstitialWithError:(NSError *)error
+{
+    NSLog(@"Did not receive offer");
+}
 
 
 @end
