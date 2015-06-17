@@ -25,7 +25,6 @@
 		5B2ECDC31B2B1E42006C1B1E /* lineto-circular-bookitalic-c.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ECDBD1B2B1E42006C1B1E /* lineto-circular-bookitalic-c.ttf */; };
 		5B2ECDC41B2B1E42006C1B1E /* lineto-circular-medium-c.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ECDBE1B2B1E42006C1B1E /* lineto-circular-medium-c.ttf */; };
 		5B2ECDC51B2B1E42006C1B1E /* lineto-circular-mediumitalic-c.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ECDBF1B2B1E42006C1B1E /* lineto-circular-mediumitalic-c.ttf */; };
-		5B2ECDCC1B2B205A006C1B1E /* FYBNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ECDCB1B2B205A006C1B1E /* FYBNavigationBar.m */; };
 		5B4A18711B2AD92600C00C49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18701B2AD92600C00C49 /* main.m */; };
 		5B4A18741B2AD92600C00C49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18731B2AD92600C00C49 /* AppDelegate.m */; };
 		5B4A18771B2AD92600C00C49 /* InterstitialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18761B2AD92600C00C49 /* InterstitialsViewController.m */; };
@@ -53,8 +52,6 @@
 		5B2ECDBD1B2B1E42006C1B1E /* lineto-circular-bookitalic-c.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lineto-circular-bookitalic-c.ttf"; sourceTree = "<group>"; };
 		5B2ECDBE1B2B1E42006C1B1E /* lineto-circular-medium-c.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lineto-circular-medium-c.ttf"; sourceTree = "<group>"; };
 		5B2ECDBF1B2B1E42006C1B1E /* lineto-circular-mediumitalic-c.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lineto-circular-mediumitalic-c.ttf"; sourceTree = "<group>"; };
-		5B2ECDCA1B2B205A006C1B1E /* FYBNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBNavigationBar.h; sourceTree = "<group>"; };
-		5B2ECDCB1B2B205A006C1B1E /* FYBNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYBNavigationBar.m; sourceTree = "<group>"; };
 		5B4A186B1B2AD92600C00C49 /* FyberSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FyberSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4A186F1B2AD92600C00C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B4A18701B2AD92600C00C49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -176,8 +173,6 @@
 		5B2ECDC91B2B2031006C1B1E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5B2ECDCA1B2B205A006C1B1E /* FYBNavigationBar.h */,
-				5B2ECDCB1B2B205A006C1B1E /* FYBNavigationBar.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,7 +292,6 @@
 				5B4A18991B2ADAD700C00C49 /* RewardedVideosViewController.m in Sources */,
 				5B4A187A1B2AD92600C00C49 /* OfferWallViewController.m in Sources */,
 				5B4A18741B2AD92600C00C49 /* AppDelegate.m in Sources */,
-				5B2ECDCC1B2B205A006C1B1E /* FYBNavigationBar.m in Sources */,
 				5B4A18771B2AD92600C00C49 /* InterstitialsViewController.m in Sources */,
 				5B4A18711B2AD92600C00C49 /* main.m in Sources */,
 				5B2ECDB61B2B0B0A006C1B1E /* CALayer+UIColor.m in Sources */,

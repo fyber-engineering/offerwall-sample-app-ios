@@ -5,7 +5,6 @@
 //
 
 #import "AppDelegate.h"
-#import "FyberSDK.h"
 
 
 @interface AppDelegate ()
@@ -21,8 +20,23 @@
     // the Fyber Dashboard http://dashboard.fyber.com
     
     [FyberSDK startWithAppId:@"22912" securityToken:@"token"];
+
+    [self customizeAppearance];
     
     return YES;
+}
+
+#pragma mark - Private
+
+- (void)customizeAppearance
+{
+    NSDictionary *navBarTitleTextAttributes = @{
+            NSForegroundColorAttributeName : [UIColor whiteColor],
+            NSFontAttributeName : [UIFont fontWithName:@"Circular-Book" size:20.0]
+    };
+
+
+    [[UINavigationBar appearance] setTitleTextAttributes:navBarTitleTextAttributes];
 }
 
 @end
