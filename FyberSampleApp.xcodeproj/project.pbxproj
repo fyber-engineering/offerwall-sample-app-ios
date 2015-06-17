@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19A177A3840D1EE472060715 /* UIButton+FYBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A17A26B4939F7B6166FD7E /* UIButton+FYBButton.m */; };
 		3D492EBB1B3098890086E19A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EBA1B3098890086E19A /* AdSupport.framework */; };
 		3D492EBD1B3098DF0086E19A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EBC1B3098DF0086E19A /* CoreGraphics.framework */; };
 		3D492EBF1B3098E40086E19A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EBE1B3098E40086E19A /* CoreLocation.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19A1755E4E7E4AA39A19EFF3 /* UIButton+FYBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FYBButton.h"; sourceTree = "<group>"; };
+		19A17A26B4939F7B6166FD7E /* UIButton+FYBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FYBButton.m"; sourceTree = "<group>"; };
 		3D492EBA1B3098890086E19A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		3D492EBC1B3098DF0086E19A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3D492EBE1B3098E40086E19A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -139,6 +142,8 @@
 			children = (
 				5B2ECDB41B2B0B0A006C1B1E /* CALayer+UIColor.h */,
 				5B2ECDB51B2B0B0A006C1B1E /* CALayer+UIColor.m */,
+				19A17A26B4939F7B6166FD7E /* UIButton+FYBButton.m */,
+				19A1755E4E7E4AA39A19EFF3 /* UIButton+FYBButton.h */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 				5B4A18771B2AD92600C00C49 /* InterstitialsViewController.m in Sources */,
 				5B4A18711B2AD92600C00C49 /* main.m in Sources */,
 				5B2ECDB61B2B0B0A006C1B1E /* CALayer+UIColor.m in Sources */,
+				19A177A3840D1EE472060715 /* UIButton+FYBButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

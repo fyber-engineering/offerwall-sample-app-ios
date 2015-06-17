@@ -7,6 +7,7 @@
 
 #import "InterstitialsViewController.h"
 #import "FyberSDK.h"
+#import "UIButton+FYBButton.h"
 
 
 @interface InterstitialsViewController () <FYBInterstitialControllerDelegate>
@@ -35,6 +36,7 @@
 - (IBAction)requestInterstitial:(id)sender
 {
     NSLog(@"Requesting Interstitial");
+    [self.requestButton setTitle:@"Getting Offers ..." forState:UIControlStateNormal];
     // Fetch the Interstitial Controller
     FYBInterstitialController *interstitialController = [FyberSDK interstitialController];
     interstitialController.delegate = self;
@@ -42,7 +44,7 @@
 }
 
 
-#pragma mark - FYBInterstitialControllerDelegate
+#pragma mark FYBInterstitialControllerDelegate - Request Interstitial
 
 - (void)interstitialControllerDidReceiveInterstitial:(FYBInterstitialController *)interstitialController
 {
@@ -52,7 +54,15 @@
 
 - (void)interstitialController:(FYBInterstitialController *)interstitialController didFailToReceiveInterstitialWithError:(NSError *)error
 {
+    [self.requestButton fyb_setTitle:@"No interstitials" forState:UIControlStateNormal restoreTitle:@"Request Interstitial"];
     NSLog(@"Did not receive offer");
+}
+
+#pragma mark FYBInterstitialControllerDelegate  - Show Interstitial
+
+- (void)interstitialController:(FYBInterstitialController *)interstitialController didDismissInterstitialWithReason:(FYBInterstitialDismissReason)reason
+{
+    [self.requestButton fyb_setTitle:@"Interstitials dismissed" forState:UIControlStateNormal restoreTitle:@"Request Interstitial"];
 }
 
 

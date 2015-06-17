@@ -5,11 +5,12 @@
 //
 
 #import "RewardedVideosViewController.h"
+#import "FyberSDK.h"
+#import "UIButton+FYBButton.h"
 
 
-@interface RewardedVideosViewController ()
+@interface RewardedVideosViewController () <FYBRewardedVideoControllerDelegate>
 
-@property (nonatomic, weak) IBOutlet UIButton *requestButton;
 
 @end
 
@@ -34,11 +35,67 @@
 - (IBAction)requestRewardedVideos:(id)sender
 {
     NSLog(@"Requesting Rewarded Video");
+
+    [self.requestButton setTitle:@"Getting Offers ..." forState:UIControlStateNormal];
+
+    [self.requestButton titleForState:UIControlStateNormal];
+
+    // Fetch the Rewarded Video Controller
+    FYBRewardedVideoController *rewardedVideoController = [FyberSDK rewardedVideoController];
+
+    // Configure the client the way you want (check out the API Reference for more information)
+    rewardedVideoController.delegate = self; // self should conform to the `FYBRewardedVideoControllerDelegate` protocol
+
+    // Request a Rewarded Video
+    [rewardedVideoController requestVideo];
 }
 
-- (IBAction)playRewardedVideos:(id)sender
+#pragma mark FYBRewardedVideoControllerDelegate - Request Video
+
+- (void)rewardedVideoControllerDidReceiveVideo:(FYBRewardedVideoController *)rewardedVideoController
 {
-    NSLog(@"Playing Rewarded Video");
+    [self.requestButton setTitle:@"Got Offers" forState:UIControlStateNormal];
+
+    // Play the received rewarded video
+    [rewardedVideoController presentRewardedVideoFromViewController:self];
 }
+
+- (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didFailToReceiveVideoWithError:(NSError *)error
+{
+    [self.requestButton fyb_setTitle:@"No videos" forState:UIControlStateNormal restoreTitle:@"Request Video"];
+
+}
+
+
+
+#pragma mark FYBRewardedVideoControllerDelegate - Show Video
+
+- (void)rewardedVideoControllerWillShowVideo:(FYBRewardedVideoController *)rewardedVideoController
+{
+    [self.requestButton setTitle:@"Showing Video" forState:UIControlStateNormal];
+}
+
+- (void)rewardedVideoControllerDidShowVideo:(FYBRewardedVideoController *)rewardedVideoController
+{
+
+}
+
+- (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController willDismissVideoWithReason:(FYBRewardedVideoControllerDismissReason)reason
+{
+
+
+}
+
+- (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didDismissVideoWithReason:(FYBRewardedVideoControllerDismissReason)reason
+{
+    [self.requestButton fyb_setTitle:@"Video ended" forState:UIControlStateNormal restoreTitle:@"Request Video"];
+}
+
+- (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didFailToShowVideoWithError:(NSError *)error
+{
+    [self.requestButton fyb_setTitle:@"Video failed" forState:UIControlStateNormal restoreTitle:@"Request Video"];
+
+}
+
 
 @end

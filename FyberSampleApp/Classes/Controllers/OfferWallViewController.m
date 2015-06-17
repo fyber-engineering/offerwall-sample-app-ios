@@ -6,11 +6,12 @@
 
 #import "OfferWallViewController.h"
 #import "FyberSDK.h"
+#import "UIButton+FYBButton.h"
 
 
 @interface OfferWallViewController ()
 
-@property (nonatomic, weak) IBOutlet UIButton *showButton;
+
 
 @end
 
@@ -35,6 +36,7 @@
 - (IBAction)showOfferWall:(id)sender
 {
     NSLog(@"Showing Offer Wall");
+    [self.requestButton setTitle:@"Showing Offer Wall" forState:UIControlStateNormal];
     // Create an instance of the FYBOfferWallViewController
     FYBOfferWallViewController *offerWallViewController = [[FYBOfferWallViewController alloc] init];
     
@@ -48,6 +50,7 @@
     } dismiss:^{
         // Code executed when the Offer Wall is dismissed
         NSLog(@"Offer is dismissed");
+        [self.requestButton fyb_setTitle:@"Offer Wall dismissed" forState:UIControlStateNormal restoreTitle:@"Show Offer Wall"];
     }];
 
 }

@@ -10,5 +10,7 @@
 
 @interface RewardedVideosViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIButton *requestButton;
+
 @end
 
