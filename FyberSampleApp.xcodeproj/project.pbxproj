@@ -14,6 +14,8 @@
 		3D20F3C01B3965C500B86A30 /* FYBBackIconiPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D20F3BB1B3965C500B86A30 /* FYBBackIconiPad@2x.png */; };
 		3D20F3C11B3965C500B86A30 /* FYBBackIconiPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D20F3BC1B3965C500B86A30 /* FYBBackIconiPhone@2x.png */; };
 		3D20F3C21B3965C500B86A30 /* FYBCloseX.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D20F3BD1B3965C500B86A30 /* FYBCloseX.png */; };
+		3D20F3C81B39751800B86A30 /* UIFont+FYBFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D20F3C71B39751800B86A30 /* UIFont+FYBFont.m */; };
+		3D20F3CB1B39753C00B86A30 /* FYBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D20F3CA1B39753C00B86A30 /* FYBButton.m */; };
 		3D492EBB1B3098890086E19A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EBA1B3098890086E19A /* AdSupport.framework */; };
 		3D492EBD1B3098DF0086E19A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EBC1B3098DF0086E19A /* CoreGraphics.framework */; };
 		3D492EBF1B3098E40086E19A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EBE1B3098E40086E19A /* CoreLocation.framework */; };
@@ -24,7 +26,6 @@
 		5B2203031B2AFEA000266742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A187B1B2AD92600C00C49 /* Main.storyboard */; };
 		5B2203041B2AFEA000266742 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A18801B2AD92600C00C49 /* LaunchScreen.xib */; };
 		5B2ECDB31B2B09E6006C1B1E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */; };
-		5B2ECDB61B2B0B0A006C1B1E /* CALayer+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ECDB51B2B0B0A006C1B1E /* CALayer+UIColor.m */; };
 		5B2ECDC01B2B1E42006C1B1E /* lineto-circular-bold-c.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ECDBA1B2B1E42006C1B1E /* lineto-circular-bold-c.ttf */; };
 		5B2ECDC11B2B1E42006C1B1E /* lineto-circular-bolditalic-c.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ECDBB1B2B1E42006C1B1E /* lineto-circular-bolditalic-c.ttf */; };
 		5B2ECDC21B2B1E42006C1B1E /* lineto-circular-book-c.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ECDBC1B2B1E42006C1B1E /* lineto-circular-book-c.ttf */; };
@@ -44,6 +45,10 @@
 		19A1755E4E7E4AA39A19EFF3 /* UIButton+FYBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FYBButton.h"; sourceTree = "<group>"; };
 		19A176F2000BC31B5CBAF519 /* UIColor+FYBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FYBColor.m"; sourceTree = "<group>"; };
 		19A17A26B4939F7B6166FD7E /* UIButton+FYBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FYBButton.m"; sourceTree = "<group>"; };
+		3D20F3C61B39751800B86A30 /* UIFont+FYBFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FYBFont.h"; sourceTree = "<group>"; };
+		3D20F3C71B39751800B86A30 /* UIFont+FYBFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FYBFont.m"; sourceTree = "<group>"; };
+		3D20F3C91B39753C00B86A30 /* FYBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBButton.h; sourceTree = "<group>"; };
+		3D20F3CA1B39753C00B86A30 /* FYBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYBButton.m; sourceTree = "<group>"; };
 		3D492EBA1B3098890086E19A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		3D492EBC1B3098DF0086E19A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3D492EBE1B3098E40086E19A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -52,8 +57,6 @@
 		3D492EC41B3098FA0086E19A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		3D492EC61B3099010086E19A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		5B2ECDB41B2B0B0A006C1B1E /* CALayer+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+UIColor.h"; sourceTree = "<group>"; };
-		5B2ECDB51B2B0B0A006C1B1E /* CALayer+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+UIColor.m"; sourceTree = "<group>"; };
 		5B2ECDBA1B2B1E42006C1B1E /* lineto-circular-bold-c.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lineto-circular-bold-c.ttf"; sourceTree = "<group>"; };
 		5B2ECDBB1B2B1E42006C1B1E /* lineto-circular-bolditalic-c.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lineto-circular-bolditalic-c.ttf"; sourceTree = "<group>"; };
 		5B2ECDBC1B2B1E42006C1B1E /* lineto-circular-book-c.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lineto-circular-book-c.ttf"; sourceTree = "<group>"; };
@@ -95,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19A170BA51B345D8E605752B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D20F3C91B39753C00B86A30 /* FYBButton.h */,
+				3D20F3CA1B39753C00B86A30 /* FYBButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3DAB3A121B3018F60093FB99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,12 +157,12 @@
 		5B2ECDC61B2B2006006C1B1E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				5B2ECDB41B2B0B0A006C1B1E /* CALayer+UIColor.h */,
-				5B2ECDB51B2B0B0A006C1B1E /* CALayer+UIColor.m */,
 				19A17A26B4939F7B6166FD7E /* UIButton+FYBButton.m */,
 				19A1755E4E7E4AA39A19EFF3 /* UIButton+FYBButton.h */,
 				19A176F2000BC31B5CBAF519 /* UIColor+FYBColor.m */,
 				19A1746F159194F8AED14288 /* UIColor+FYBColor.h */,
+				3D20F3C61B39751800B86A30 /* UIFont+FYBFont.h */,
+				3D20F3C71B39751800B86A30 /* UIFont+FYBFont.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -162,7 +174,7 @@
 				5B4A18731B2AD92600C00C49 /* AppDelegate.m */,
 				5B2ECDC81B2B2015006C1B1E /* Controllers */,
 				5B2ECDC61B2B2006006C1B1E /* Categories */,
-				5B2ECDC91B2B2031006C1B1E /* Views */,
+				19A170BA51B345D8E605752B /* Views */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -178,13 +190,6 @@
 				5B4A18981B2ADAD700C00C49 /* RewardedVideosViewController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		5B2ECDC91B2B2031006C1B1E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		5B4A18621B2AD92600C00C49 = {
@@ -302,9 +307,10 @@
 				5B4A18991B2ADAD700C00C49 /* RewardedVideosViewController.m in Sources */,
 				5B4A187A1B2AD92600C00C49 /* OfferWallViewController.m in Sources */,
 				5B4A18741B2AD92600C00C49 /* AppDelegate.m in Sources */,
+				3D20F3C81B39751800B86A30 /* UIFont+FYBFont.m in Sources */,
 				5B4A18771B2AD92600C00C49 /* InterstitialsViewController.m in Sources */,
 				5B4A18711B2AD92600C00C49 /* main.m in Sources */,
-				5B2ECDB61B2B0B0A006C1B1E /* CALayer+UIColor.m in Sources */,
+				3D20F3CB1B39753C00B86A30 /* FYBButton.m in Sources */,
 				19A177A3840D1EE472060715 /* UIButton+FYBButton.m in Sources */,
 				19A17CB3F76AE8D34C28E40D /* UIColor+FYBColor.m in Sources */,
 			);
