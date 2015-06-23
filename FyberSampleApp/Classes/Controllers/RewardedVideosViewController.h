@@ -9,7 +9,11 @@
 
 @interface RewardedVideosViewController : UIViewController
 
-@property (nonatomic, weak) IBOutlet UIButton *requestButton;
+@property(nonatomic, weak) IBOutlet UIButton *requestButton;
+
+#pragma mark - Actions
+
+- (IBAction)requestRewardedVideos:(id)sender;
 
 @end
 

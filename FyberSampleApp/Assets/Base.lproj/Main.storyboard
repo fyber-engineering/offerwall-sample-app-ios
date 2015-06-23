@@ -73,7 +73,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Offer Wall" image="Offer Wall" id="acW-dT-cKf"/>
                     <connections>
-                        <outlet property="requestButton" destination="HF2-f4-2UZ" id="vja-82-xhN"/>
+                        <outlet property="showButton" destination="HF2-f4-2UZ" id="vja-82-xhN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>

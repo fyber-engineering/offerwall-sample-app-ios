@@ -11,5 +11,9 @@
 
 @property (nonatomic, weak) IBOutlet UIButton *requestButton;
 
+#pragma mark - Actions
+
+- (IBAction)requestInterstitial:(id)sender;
+
 @end
 

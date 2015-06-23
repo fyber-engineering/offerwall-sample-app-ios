@@ -9,7 +9,11 @@
 
 @interface OfferWallViewController : UIViewController
 
-@property (nonatomic, weak) IBOutlet UIButton *requestButton;
+@property(nonatomic, weak) IBOutlet UIButton *showButton;
+
+#pragma mark - Actions
+
+- (IBAction)showOfferWall:(id)sender;
 
 @end
 
