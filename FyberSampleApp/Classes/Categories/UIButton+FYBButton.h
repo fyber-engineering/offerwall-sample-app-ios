@@ -1,11 +1,11 @@
 //
-// Created by Jan on 17/06/15.
+//
 // Copyright (c) 2015 Fyber. All rights reserved.
+//
 //
 
 #import <UIKit/UIKit.h>
 
-extern NSTimeInterval const FYBButtonTextDuration;
 
 @interface UIButton (FYBButton)
 

@@ -1,12 +1,13 @@
 //
-// Created by Jan on 17/06/15.
+//
 // Copyright (c) 2015 Fyber. All rights reserved.
+//
 //
 
 #import "UIButton+FYBButton.h"
 
 
-NSTimeInterval const FYBButtonTextDuration = 3.0;
+static NSTimeInterval const FYBButtonTextDuration = 3.0;
 
 @implementation UIButton (FYBButton)
 
