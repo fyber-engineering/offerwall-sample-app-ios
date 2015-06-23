@@ -9,7 +9,7 @@
 #import "UIButton+FYBButton.h"
 
 
-@interface RewardedVideosViewController () <FYBRewardedVideoControllerDelegate>
+@interface RewardedVideosViewController () <FYBRewardedVideoControllerDelegate, FYBVirtualCurrencyClientDelegate>
 
 
 @end
@@ -45,6 +45,14 @@
 
     // Configure the client the way you want (check out the API Reference for more information)
     rewardedVideoController.delegate = self; // self should conform to the `FYBRewardedVideoControllerDelegate` protocol
+
+
+    // You can enable or disable a "toast" message shown to the user after the video is fully watched
+    rewardedVideoController.shouldShowToastForCompletedEngagement = YES;
+
+    // If you set a FYBVirtualCurrencyClientDelegate, the virtual currency will be automatically requested after the user engagement
+    // and your delegate will be informed about its results.
+    rewardedVideoController.virtualCurrencyClientDelegate = self;
 
     // Request a Rewarded Video
     [rewardedVideoController requestVideo];
@@ -94,6 +102,19 @@
 - (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didFailToShowVideoWithError:(NSError *)error
 {
     [self.requestButton fyb_setTitle:@"Video failed" forState:UIControlStateNormal restoreTitle:@"Request Video"];
+
+}
+
+
+#pragma mark - FYBVirtualCurrencyClientDelegate
+
+- (void)virtualCurrencyClient:(FYBVirtualCurrencyClient *)client didReceiveResponse:(FYBVirtualCurrencyResponse *)response
+{
+    NSLog(@"Received %@, %@", @(response.deltaOfCoins), response.currencyName);
+}
+
+- (void)virtualCurrencyClient:(FYBVirtualCurrencyClient *)client didFailWithError:(NSError *)error
+{
 
 }
 
