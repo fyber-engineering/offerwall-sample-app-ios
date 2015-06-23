@@ -39,9 +39,16 @@
     // Fetch the Interstitial Controller
     FYBInterstitialController *interstitialController = [FyberSDK interstitialController];
     interstitialController.delegate = self;
-    [interstitialController requestInterstitial];
-}
 
+    FYBRequestParameters *parameters = [[FYBRequestParameters alloc] init];
+
+    // If you want to add custom parameters or a placement id to your request, you can do it with the following code
+    // parameters.placementId = @"PLACEMENT_ID";
+    // [parameters addCustomParameterWithKey:@"param1Key" value:@"param1Value"];
+
+    [interstitialController requestInterstitialWithParameters:parameters];
+
+}
 
 #pragma mark FYBInterstitialControllerDelegate - Request Interstitial
 
