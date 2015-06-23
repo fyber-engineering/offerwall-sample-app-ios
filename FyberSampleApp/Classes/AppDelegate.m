@@ -6,6 +6,8 @@
 
 #import "AppDelegate.h"
 #import "FyberSDK.h"
+#import "UIFont+FYBFont.h"
+#import "UIColor+FYBColor.h"
 
 @interface AppDelegate ()
 
@@ -32,8 +34,8 @@
 - (void)customizeAppearance
 {
     NSDictionary *navBarTitleTextAttributes = @{
-            NSForegroundColorAttributeName : [UIColor whiteColor],
-            NSFontAttributeName : [UIFont fontWithName:@"Circular-Book" size:20.0]
+            NSForegroundColorAttributeName : [UIColor fyb_textColor],
+            NSFontAttributeName : [UIFont fyb_navigationBarFont]
     };
 
 
