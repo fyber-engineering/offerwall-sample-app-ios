@@ -16,11 +16,12 @@ NSTimeInterval const FYBButtonTextDuration = 3.0;
     [self fyb_setTitle:title forState:state duration:duration restoreTitle:restoreTitle];
 }
 
-- (void)fyb_setTitle:(NSString *)title forState:(UIControlState)state restoreTitle:(NSString *) restoreTitle
+- (void)fyb_setTitle:(NSString *)title forState:(UIControlState)state restoreTitle:(NSString *)restoreTitle
 {
     [self fyb_setTitle:title forState:state duration:FYBButtonTextDuration restoreTitle:restoreTitle];
 }
-- (void)fyb_setTitle:(NSString *)title forState:(UIControlState)state duration:(NSTimeInterval)duration restoreTitle:(NSString *) restoreTitle
+
+- (void)fyb_setTitle:(NSString *)title forState:(UIControlState)state duration:(NSTimeInterval)duration restoreTitle:(NSString *)restoreTitle
 {
     [self setTitle:title forState:UIControlStateNormal];
 
