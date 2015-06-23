@@ -11,12 +11,6 @@ static NSTimeInterval const FYBButtonTextDuration = 3.0;
 
 @implementation UIButton (FYBButton)
 
-- (void)fyb_setTitle:(NSString *)title forState:(UIControlState)state duration:(NSTimeInterval)duration
-{
-    NSString *restoreTitle = [self titleForState:state];
-    [self fyb_setTitle:title forState:state duration:duration restoreTitle:restoreTitle];
-}
-
 - (void)fyb_setTitle:(NSString *)title forState:(UIControlState)state restoreTitle:(NSString *)restoreTitle
 {
     [self fyb_setTitle:title forState:state duration:FYBButtonTextDuration restoreTitle:restoreTitle];
