@@ -13,7 +13,7 @@
 
 #pragma mark - Actions
 
-- (IBAction)requestRewardedVideos:(id)sender;
+- (IBAction)requestOrShowRewardedVideos:(id)sender;
 
 @end
 

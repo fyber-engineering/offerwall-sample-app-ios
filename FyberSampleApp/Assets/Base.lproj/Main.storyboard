@@ -131,7 +131,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="requestRewardedVideos:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="dYe-N1-edd"/>
+                                    <action selector="requestOrShowRewardedVideos:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="nNU-RN-fB9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -205,7 +205,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="requestInterstitial:" destination="Nba-Ax-niL" eventType="touchUpInside" id="xlk-tm-3LH"/>
+                                    <action selector="requestOrShowInterstitial:" destination="Nba-Ax-niL" eventType="touchUpInside" id="uQl-sp-czg"/>
                                 </connections>
                             </button>
                         </subviews>

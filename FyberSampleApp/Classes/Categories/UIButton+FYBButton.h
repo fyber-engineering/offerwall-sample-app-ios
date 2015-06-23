@@ -9,11 +9,10 @@
 
 @interface UIButton (FYBButton)
 
-/**
-*
-* Sets the title for the given state and restores it after a default delay
-*
-*/
-- (void)fyb_setTitle:(NSString *)title forState:(UIControlState)state restoreTitle:(NSString *)restoreTitle;
+- (void)fyb_setTitle:(NSString *)title backgroundColor:(UIColor *)color restoreTitle:(NSString *)restoreTitle;
+
+- (void)fyb_setTitle:(NSString *)title restoreTitle:(NSString *)restoreTitle;
+
+- (void)fyb_setTitle:(NSString *)title backgroundColor:(UIColor *)color;
 
 @end

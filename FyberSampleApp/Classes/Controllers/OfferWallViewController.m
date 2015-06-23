@@ -53,7 +53,7 @@
     } dismiss:^{
         // Code executed when the Offer Wall is dismissed
         NSLog(@"Offer is dismissed");
-        [self.showButton fyb_setTitle:@"Offer Wall dismissed" forState:UIControlStateNormal restoreTitle:@"Show Offer Wall"];
+        [self.showButton fyb_setTitle:@"Offer Wall dismissed" restoreTitle:@"Show Offer Wall"];
     }];
 
 }

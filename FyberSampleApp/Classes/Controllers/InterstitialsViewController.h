@@ -13,7 +13,7 @@
 
 #pragma mark - Actions
 
-- (IBAction)requestInterstitial:(id)sender;
+- (IBAction)requestOrShowInterstitial:(id)sender;
 
 @end
 

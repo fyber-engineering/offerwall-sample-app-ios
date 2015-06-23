@@ -7,10 +7,12 @@
 #import "RewardedVideosViewController.h"
 #import "FyberSDK.h"
 #import "UIButton+FYBButton.h"
+#import "UIColor+FYBColor.h"
 
 
 @interface RewardedVideosViewController () <FYBRewardedVideoControllerDelegate, FYBVirtualCurrencyClientDelegate>
 
+@property(nonatomic, assign) BOOL didReceiveOffers;
 
 @end
 
@@ -32,7 +34,17 @@
 
 #pragma mark - Actions
 
-- (IBAction)requestRewardedVideos:(id)sender
+- (IBAction)requestOrShowRewardedVideos:(id)sender
+{
+    if (self.didReceiveOffers) {
+        [self showRewardedVideo];
+    } else {
+        [self requestRewardedVideos];
+    }
+
+}
+
+- (void)requestRewardedVideos
 {
     NSLog(@"Requesting Rewarded Video");
 
@@ -58,40 +70,51 @@
     [rewardedVideoController requestVideo];
 }
 
+- (void)showRewardedVideo
+{
+    // Play the received rewarded video
+    [[FyberSDK rewardedVideoController] presentRewardedVideoFromViewController:self];
+}
+
 #pragma mark FYBRewardedVideoControllerDelegate - Request Video
 
 - (void)rewardedVideoControllerDidReceiveVideo:(FYBRewardedVideoController *)rewardedVideoController
 {
-    [self.requestButton setTitle:@"Got Offers" forState:UIControlStateNormal];
+    NSLog(@"Did receive offer");
+    self.didReceiveOffers = YES;
 
-    // Play the received rewarded video
-    [rewardedVideoController presentRewardedVideoFromViewController:self];
+    [self.requestButton fyb_setTitle:@"Show Video" backgroundColor:[UIColor fyb_orangeColor]];
+
 }
 
 - (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didFailToReceiveVideoWithError:(NSError *)error
 {
-    [self.requestButton fyb_setTitle:@"No videos" forState:UIControlStateNormal restoreTitle:@"Request Video"];
+    NSLog(@"Did not receive any offer");
+    self.didReceiveOffers = NO;
+    [self.requestButton fyb_setTitle:@"No videos" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request Video"];
 
 }
-
 
 
 #pragma mark FYBRewardedVideoControllerDelegate - Show Video
 
 - (void)rewardedVideoControllerDidStartVideo:(FYBRewardedVideoController *)rewardedVideoController
 {
-    [self.requestButton setTitle:@"Showing Video" forState:UIControlStateNormal];
+    NSLog(@"Video started");
+
 }
 
 
 - (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didDismissVideoWithReason:(FYBRewardedVideoControllerDismissReason)reason
 {
-    [self.requestButton fyb_setTitle:@"Video ended" forState:UIControlStateNormal restoreTitle:@"Request Video"];
+    self.didReceiveOffers = NO;
+    [self.requestButton fyb_setTitle:@"Video ended" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request Video"];
 }
 
 - (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didFailToShowVideoWithError:(NSError *)error
 {
-    [self.requestButton fyb_setTitle:@"Showing Video Failed" forState:UIControlStateNormal restoreTitle:@"Request Video"];
+    self.didReceiveOffers = NO;
+    [self.requestButton fyb_setTitle:@"Showing Video Failed" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request Video"];
 
 }
 
