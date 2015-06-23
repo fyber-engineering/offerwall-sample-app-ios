@@ -11,4 +11,6 @@
 +(UIFont *)fyb_buttonFont;
 
 +(UIFont *)fyb_navigationBarFont;
+
++(NSDictionary *) fyb_buttonParagraphAttributes;
 @end

@@ -7,6 +7,7 @@
 #import "OfferWallViewController.h"
 #import "FyberSDK.h"
 #import "UIButton+FYBButton.h"
+#import "UIColor+FYBColor.h"
 
 
 @interface OfferWallViewController ()
@@ -23,12 +24,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.showButton fyb_setTitle:@"Show\nOffer Wall" backgroundColor:[UIColor fyb_orangeColor] animated:NO];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-}
 
 
 #pragma mark - Actions
@@ -53,7 +51,7 @@
     } dismiss:^{
         // Code executed when the Offer Wall is dismissed
         NSLog(@"Offer is dismissed");
-        [self.showButton fyb_setTitle:@"Offer Wall dismissed" restoreTitle:@"Show Offer Wall"];
+        [self.showButton fyb_setTitle:@"Offer Wall\ndismissed" restoreTitle:@"Show\nOffer Wall"];
     }];
 
 }

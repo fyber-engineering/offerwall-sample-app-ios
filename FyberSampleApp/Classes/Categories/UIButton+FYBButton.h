@@ -14,5 +14,6 @@
 - (void)fyb_setTitle:(NSString *)title restoreTitle:(NSString *)restoreTitle;
 
 - (void)fyb_setTitle:(NSString *)title backgroundColor:(UIColor *)color;
+- (void)fyb_setTitle:(NSString *)title backgroundColor:(UIColor *)color animated:(BOOL) animated;
 
 @end
