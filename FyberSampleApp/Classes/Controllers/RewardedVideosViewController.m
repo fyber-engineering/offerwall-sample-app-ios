@@ -110,7 +110,7 @@
 
 - (void)virtualCurrencyClient:(FYBVirtualCurrencyClient *)client didReceiveResponse:(FYBVirtualCurrencyResponse *)response
 {
-    NSLog(@"Received %@, %@", @(response.deltaOfCoins), response.currencyName);
+    NSLog(@"Received %@ %@", @(response.deltaOfCoins), response.currencyName);
 }
 
 - (void)virtualCurrencyClient:(FYBVirtualCurrencyClient *)client didFailWithError:(NSError *)error
