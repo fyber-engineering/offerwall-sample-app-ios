@@ -78,21 +78,11 @@
 
 #pragma mark FYBRewardedVideoControllerDelegate - Show Video
 
-- (void)rewardedVideoControllerWillShowVideo:(FYBRewardedVideoController *)rewardedVideoController
+- (void)rewardedVideoControllerDidStartVideo:(FYBRewardedVideoController *)rewardedVideoController
 {
     [self.requestButton setTitle:@"Showing Video" forState:UIControlStateNormal];
 }
 
-- (void)rewardedVideoControllerDidShowVideo:(FYBRewardedVideoController *)rewardedVideoController
-{
-
-}
-
-- (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController willDismissVideoWithReason:(FYBRewardedVideoControllerDismissReason)reason
-{
-
-
-}
 
 - (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didDismissVideoWithReason:(FYBRewardedVideoControllerDismissReason)reason
 {
@@ -101,7 +91,7 @@
 
 - (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didFailToShowVideoWithError:(NSError *)error
 {
-    [self.requestButton fyb_setTitle:@"Video failed" forState:UIControlStateNormal restoreTitle:@"Request Video"];
+    [self.requestButton fyb_setTitle:@"Showing Video Failed" forState:UIControlStateNormal restoreTitle:@"Request Video"];
 
 }
 
@@ -115,7 +105,7 @@
 
 - (void)virtualCurrencyClient:(FYBVirtualCurrencyClient *)client didFailWithError:(NSError *)error
 {
-
+    NSLog(@"Failed to receive virtual currency %@", error);
 }
 
 

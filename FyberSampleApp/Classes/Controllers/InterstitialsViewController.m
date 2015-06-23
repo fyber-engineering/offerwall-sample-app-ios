@@ -54,21 +54,32 @@
 
 - (void)interstitialControllerDidReceiveInterstitial:(FYBInterstitialController *)interstitialController
 {
-    NSLog(@"Showing Interstitial");
+    NSLog(@"Did not receive offer");
     [interstitialController presentInterstitialFromViewController:self];
 }
 
 - (void)interstitialController:(FYBInterstitialController *)interstitialController didFailToReceiveInterstitialWithError:(NSError *)error
 {
+    NSLog(@"Did not receive any offer");
     [self.requestButton fyb_setTitle:@"No interstitials" forState:UIControlStateNormal restoreTitle:@"Request Interstitial"];
-    NSLog(@"Did not receive offer");
+
 }
 
 #pragma mark FYBInterstitialControllerDelegate  - Show Interstitial
 
+- (void)interstitialControllerDidPresentInterstitial:(FYBInterstitialController *)interstitialController
+{
+    NSLog(@"Interstitial Presented");
+}
+
 - (void)interstitialController:(FYBInterstitialController *)interstitialController didDismissInterstitialWithReason:(FYBInterstitialDismissReason)reason
 {
     [self.requestButton fyb_setTitle:@"Interstitials dismissed" forState:UIControlStateNormal restoreTitle:@"Request Interstitial"];
+}
+
+- (void)interstitialController:(FYBInterstitialController *)interstitialController didFailToPresentInterstitialWithError:(NSError *)error
+{
+    [self.requestButton fyb_setTitle:@"Showing Interstitial Failed" forState:UIControlStateNormal restoreTitle:@"Request Interstitial"];
 }
 
 
