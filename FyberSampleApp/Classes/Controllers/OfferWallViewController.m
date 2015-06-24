@@ -43,7 +43,10 @@
 
     // If the user is redirected to an ad, you can decide whether or not the Offer Wall is automatically dismissed or not with this property
     offerWallViewController.shouldDismissOnRedirect = YES;
-    
+
+    // With this property, a native close button is shown while the offer wall is loading.
+    offerWallViewController.showCloseButtonOnLoad = YES;
+
     // Show the Offer Wall
     [offerWallViewController presentFromViewController:self animated:YES completion:^{
         // Code executed when the Offer Wall is presented
