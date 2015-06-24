@@ -3,7 +3,9 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Offer Wall-->
@@ -34,12 +36,11 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="HF2-f4-2UZ" customClass="FYBButton">
-                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="5cB-YA-vQ0"/>
-                                    <constraint firstAttribute="height" constant="200" id="KDD-WK-wuE"/>
+                                    <constraint firstAttribute="width" secondItem="HF2-f4-2UZ" secondAttribute="height" multiplier="1:1" id="XfP-fi-eyt"/>
                                 </constraints>
                                 <state key="normal" title="Show Offer Wall">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -54,8 +55,11 @@
                         <constraints>
                             <constraint firstItem="bS5-Mc-3CM" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="-20" id="5fk-pu-GDt"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bS5-Mc-3CM" secondAttribute="trailing" constant="-16" id="DgK-Ps-e6l"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" relation="greaterThanOrEqual" secondItem="HF2-f4-2UZ" secondAttribute="bottom" constant="20" id="Eal-Lb-xH8"/>
+                            <constraint firstItem="HF2-f4-2UZ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="bS5-Mc-3CM" secondAttribute="bottom" constant="20" id="JeR-Z9-bJN"/>
                             <constraint firstAttribute="centerX" secondItem="HF2-f4-2UZ" secondAttribute="centerX" id="aIk-Db-X2P"/>
                             <constraint firstItem="bS5-Mc-3CM" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="-16" id="lBM-LB-cYo"/>
+                            <constraint firstItem="HF2-f4-2UZ" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" multiplier="1/2" priority="999" id="vec-oN-xZD"/>
                             <constraint firstAttribute="centerY" secondItem="HF2-f4-2UZ" secondAttribute="centerY" id="ysV-cm-n1Y"/>
                         </constraints>
                     </view>
@@ -96,12 +100,11 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fqJ-Bb-gyu" customClass="FYBButton">
-                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="HNk-WZ-eox"/>
-                                    <constraint firstAttribute="width" constant="200" id="g9G-3t-Wjc"/>
+                                    <constraint firstAttribute="width" secondItem="fqJ-Bb-gyu" secondAttribute="height" multiplier="1:1" id="NbA-5y-iDJ"/>
                                 </constraints>
                                 <state key="normal" title="Request Video">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -114,11 +117,14 @@
                         <animations/>
                         <color key="backgroundColor" red="0.72549019607843135" green="0.85098039215686272" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fqJ-Bb-gyu" secondAttribute="bottom" constant="20" id="DdJ-jI-wZa"/>
                             <constraint firstItem="ihJ-tW-WIe" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="-20" id="HTw-bf-mGU"/>
                             <constraint firstItem="ihJ-tW-WIe" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="-16" id="PYd-0H-lea"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ihJ-tW-WIe" secondAttribute="trailing" constant="-16" id="QCg-oE-QIl"/>
+                            <constraint firstItem="fqJ-Bb-gyu" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ihJ-tW-WIe" secondAttribute="bottom" constant="20" id="bXf-bg-aXM"/>
                             <constraint firstAttribute="centerY" secondItem="fqJ-Bb-gyu" secondAttribute="centerY" id="gI6-Zu-eGO"/>
                             <constraint firstAttribute="centerX" secondItem="fqJ-Bb-gyu" secondAttribute="centerX" id="grD-xK-PzI"/>
+                            <constraint firstItem="fqJ-Bb-gyu" firstAttribute="width" secondItem="QS5-Rx-YEW" secondAttribute="width" multiplier="1/2" priority="999" id="v2L-g8-fZA"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Rewarded Videos" image="Rewarded Videos" id="cPa-gy-q4n"/>
@@ -158,12 +164,11 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7aI-Z7-Eqx" customClass="FYBButton">
-                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="Ab0-7n-UY5"/>
-                                    <constraint firstAttribute="width" constant="200" id="yBH-bn-TL6"/>
+                                    <constraint firstAttribute="width" secondItem="7aI-Z7-Eqx" secondAttribute="height" multiplier="1:1" id="qBF-I5-ufs"/>
                                 </constraints>
                                 <state key="normal" title="Request Interstitial">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -177,10 +182,13 @@
                         <color key="backgroundColor" red="0.72549019609999998" green="0.85098039219999999" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="7aI-Z7-Eqx" secondAttribute="centerY" id="Naz-0E-aZm"/>
+                            <constraint firstItem="WLg-pt-jTQ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="7aI-Z7-Eqx" secondAttribute="bottom" constant="20" id="PpV-mY-Ydj"/>
                             <constraint firstItem="pMI-xs-Bfb" firstAttribute="top" secondItem="j0F-Td-9fB" secondAttribute="bottom" constant="-20" id="dlf-9w-zqE"/>
+                            <constraint firstItem="7aI-Z7-Eqx" firstAttribute="top" relation="greaterThanOrEqual" secondItem="pMI-xs-Bfb" secondAttribute="bottom" constant="20" id="hr7-c7-3j7"/>
                             <constraint firstItem="pMI-xs-Bfb" firstAttribute="leading" secondItem="oMp-aS-2Ej" secondAttribute="leadingMargin" constant="-16" id="ioN-q6-q1x"/>
                             <constraint firstAttribute="trailingMargin" secondItem="pMI-xs-Bfb" secondAttribute="trailing" constant="-16" id="oEE-gF-tgK"/>
                             <constraint firstAttribute="centerX" secondItem="7aI-Z7-Eqx" secondAttribute="centerX" id="tEw-jL-bua"/>
+                            <constraint firstItem="7aI-Z7-Eqx" firstAttribute="width" secondItem="oMp-aS-2Ej" secondAttribute="width" multiplier="1/2" priority="999" id="tG7-NI-7ga"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Interstitials" image="Interstitials" id="y9F-0x-1IG"/>
