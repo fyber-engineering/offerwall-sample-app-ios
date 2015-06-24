@@ -152,10 +152,10 @@
 		5B2ECDC61B2B2006006C1B1E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				19A17A26B4939F7B6166FD7E /* UIButton+FYBButton.m */,
 				19A1755E4E7E4AA39A19EFF3 /* UIButton+FYBButton.h */,
-				19A176F2000BC31B5CBAF519 /* UIColor+FYBColor.m */,
+				19A17A26B4939F7B6166FD7E /* UIButton+FYBButton.m */,
 				19A1746F159194F8AED14288 /* UIColor+FYBColor.h */,
+				19A176F2000BC31B5CBAF519 /* UIColor+FYBColor.m */,
 				3D20F3C61B39751800B86A30 /* UIFont+FYBFont.h */,
 				3D20F3C71B39751800B86A30 /* UIFont+FYBFont.m */,
 			);
@@ -428,6 +428,7 @@
 				INFOPLIST_FILE = "FyberSampleApp/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -443,6 +444,7 @@
 				INFOPLIST_FILE = "FyberSampleApp/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

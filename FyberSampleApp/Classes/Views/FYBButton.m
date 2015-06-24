@@ -9,13 +9,12 @@
 #import "UIFont+FYBFont.h"
 
 
-@implementation FYBButton {
-
-}
+@implementation FYBButton
 
 - (id)initWithCoder:(NSCoder *)coder
 {
     self = [super initWithCoder:coder];
+
     if (self) {
         [self customizeAppearance];
     }
@@ -45,6 +44,5 @@
     self.layer.cornerRadius = CGRectGetWidth(self.frame) / 2.0f;
 
 }
-
 
 @end

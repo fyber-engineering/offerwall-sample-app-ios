@@ -21,8 +21,9 @@
     return [UIColor colorWithRed:1 green:0.71 blue:0.29 alpha:1];
 }
 
-+(UIColor *) fyb_textColor
++ (UIColor *)fyb_textColor
 {
     return [UIColor whiteColor];
 }
+
 @end
