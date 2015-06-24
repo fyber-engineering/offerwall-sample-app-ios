@@ -12,6 +12,7 @@
 static NSTimeInterval const FYBButtonTextDuration = 3.0;
 static NSTimeInterval const FYBButtonAnimationDuration = 0.5;
 
+
 @implementation UIButton (FYBButton)
 
 - (void)fyb_setTitle:(NSString *)title restoreTitle:(NSString *)restoreTitle
@@ -56,7 +57,7 @@ static NSTimeInterval const FYBButtonAnimationDuration = 0.5;
     NSTimeInterval duration = FYBButtonAnimationDuration / 2.0;
     [UIView animateWithDuration:duration animations:^{
         self.titleLabel.alpha = 0.0f;
-    }                completion:^(BOOL finished) {
+    } completion:^(BOOL finished) {
         [self setAttributedTitle:attributedTitle forState:UIControlStateNormal];
 
         [UIView animateWithDuration:duration animations:^{

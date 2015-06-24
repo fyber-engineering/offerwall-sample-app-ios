@@ -9,10 +9,6 @@
 #import "UIFont+FYBFont.h"
 #import "UIColor+FYBColor.h"
 
-@interface AppDelegate ()
-
-@end
-
 
 @implementation AppDelegate
 
@@ -21,9 +17,9 @@
     // Start the SDK with the appId and a security token that you can find in
     // the Fyber Dashboard http://dashboard.fyber.com
     FYBSDKOptions *options = [FYBSDKOptions optionsWithAppId:@"22912" securityToken:@"token"];
+    
     [FyberSDK startWithOptions:options];
     
-
     [self customizeAppearance];
     
     return YES;
