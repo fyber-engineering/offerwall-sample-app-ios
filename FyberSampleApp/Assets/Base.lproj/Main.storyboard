@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Offer Wall-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController storyboardIdentifier="OfferWallViewController" title="Offer Wall" id="9pv-A4-QxB" customClass="OfferWallViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bS5-Mc-3CM">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="SJ5-bq-cCs"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="20"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Fyber" id="yiU-C5-fS6"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="HF2-f4-2UZ" customClass="FYBButton">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HF2-f4-2UZ" secondAttribute="height" multiplier="1:1" id="XfP-fi-eyt"/>
+                                </constraints>
+                                <state key="normal" title="Show Offer Wall">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showOfferWall:" destination="9pv-A4-QxB" eventType="touchUpInside" id="vIt-UY-4Qi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.72549019607843135" green="0.85098039215686272" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bS5-Mc-3CM" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="-20" id="5fk-pu-GDt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bS5-Mc-3CM" secondAttribute="trailing" constant="-16" id="DgK-Ps-e6l"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" relation="greaterThanOrEqual" secondItem="HF2-f4-2UZ" secondAttribute="bottom" constant="20" id="Eal-Lb-xH8"/>
+                            <constraint firstItem="HF2-f4-2UZ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="bS5-Mc-3CM" secondAttribute="bottom" constant="20" id="JeR-Z9-bJN"/>
+                            <constraint firstAttribute="centerX" secondItem="HF2-f4-2UZ" secondAttribute="centerX" id="aIk-Db-X2P"/>
+                            <constraint firstItem="bS5-Mc-3CM" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="-16" id="lBM-LB-cYo"/>
+                            <constraint firstItem="HF2-f4-2UZ" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" multiplier="1/2" priority="999" id="vec-oN-xZD"/>
+                            <constraint firstAttribute="centerY" secondItem="HF2-f4-2UZ" secondAttribute="centerY" id="ysV-cm-n1Y"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Offer Wall" image="Offer Wall" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="showButton" destination="HF2-f4-2UZ" id="vja-82-xhN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-732"/>
+        </scene>
+        <!--Rewarded Videos-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController storyboardIdentifier="RewardedVideosViewController" title="Rewarded Videos" id="8rJ-Kc-sve" customClass="RewardedVideosViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihJ-tW-WIe">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="EO1-6L-RGg"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="20"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Fyber" id="1JA-zy-p0r"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fqJ-Bb-gyu" customClass="FYBButton">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fqJ-Bb-gyu" secondAttribute="height" multiplier="1:1" id="NbA-5y-iDJ"/>
+                                </constraints>
+                                <state key="normal" title="Request Video">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="requestOrShowRewardedVideos:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="nNU-RN-fB9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.72549019607843135" green="0.85098039215686272" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fqJ-Bb-gyu" secondAttribute="bottom" constant="20" id="DdJ-jI-wZa"/>
+                            <constraint firstItem="ihJ-tW-WIe" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="-20" id="HTw-bf-mGU"/>
+                            <constraint firstItem="ihJ-tW-WIe" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="-16" id="PYd-0H-lea"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ihJ-tW-WIe" secondAttribute="trailing" constant="-16" id="QCg-oE-QIl"/>
+                            <constraint firstItem="fqJ-Bb-gyu" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ihJ-tW-WIe" secondAttribute="bottom" constant="20" id="bXf-bg-aXM"/>
+                            <constraint firstAttribute="centerY" secondItem="fqJ-Bb-gyu" secondAttribute="centerY" id="gI6-Zu-eGO"/>
+                            <constraint firstAttribute="centerX" secondItem="fqJ-Bb-gyu" secondAttribute="centerX" id="grD-xK-PzI"/>
+                            <constraint firstItem="fqJ-Bb-gyu" firstAttribute="width" secondItem="QS5-Rx-YEW" secondAttribute="width" multiplier="1/2" priority="999" id="v2L-g8-fZA"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rewarded Videos" image="Rewarded Videos" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="requestButton" destination="fqJ-Bb-gyu" id="xfX-Ep-3qx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="0.0"/>
+        </scene>
+        <!--Interstitials-->
+        <scene sceneID="AOQ-Ra-yst">
+            <objects>
+                <viewController title="Interstitials" id="Nba-Ax-niL" customClass="InterstitialsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j0F-Td-9fB"/>
+                        <viewControllerLayoutGuide type="bottom" id="WLg-pt-jTQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oMp-aS-2Ej">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMI-xs-Bfb">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="Jop-x3-Vvn"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="20"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Fyber" id="jIl-Yq-sE8"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7aI-Z7-Eqx" customClass="FYBButton">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7aI-Z7-Eqx" secondAttribute="height" multiplier="1:1" id="qBF-I5-ufs"/>
+                                </constraints>
+                                <state key="normal" title="Request Interstitial">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="requestOrShowInterstitial:" destination="Nba-Ax-niL" eventType="touchUpInside" id="uQl-sp-czg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.72549019609999998" green="0.85098039219999999" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="7aI-Z7-Eqx" secondAttribute="centerY" id="Naz-0E-aZm"/>
+                            <constraint firstItem="WLg-pt-jTQ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="7aI-Z7-Eqx" secondAttribute="bottom" constant="20" id="PpV-mY-Ydj"/>
+                            <constraint firstItem="pMI-xs-Bfb" firstAttribute="top" secondItem="j0F-Td-9fB" secondAttribute="bottom" constant="-20" id="dlf-9w-zqE"/>
+                            <constraint firstItem="7aI-Z7-Eqx" firstAttribute="top" relation="greaterThanOrEqual" secondItem="pMI-xs-Bfb" secondAttribute="bottom" constant="20" id="hr7-c7-3j7"/>
+                            <constraint firstItem="pMI-xs-Bfb" firstAttribute="leading" secondItem="oMp-aS-2Ej" secondAttribute="leadingMargin" constant="-16" id="ioN-q6-q1x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pMI-xs-Bfb" secondAttribute="trailing" constant="-16" id="oEE-gF-tgK"/>
+                            <constraint firstAttribute="centerX" secondItem="7aI-Z7-Eqx" secondAttribute="centerX" id="tEw-jL-bua"/>
+                            <constraint firstItem="7aI-Z7-Eqx" firstAttribute="width" secondItem="oMp-aS-2Ej" secondAttribute="width" multiplier="1/2" priority="999" id="tG7-NI-7ga"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Interstitials" image="Interstitials" id="y9F-0x-1IG"/>
+                    <connections>
+                        <outlet property="requestButton" destination="7aI-Z7-Eqx" id="CrC-hL-fi4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Wm-en-h96" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="749"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="1" green="0.70980392156862748" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="Nba-Ax-niL" kind="relationship" relationship="viewControllers" id="Hlb-t8-FhT"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Interstitials" width="30" height="30"/>
+        <image name="Offer Wall" width="30" height="30"/>
+        <image name="Rewarded Videos" width="30" height="30"/>
+    </resources>
+</document>
