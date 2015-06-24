@@ -9,11 +9,6 @@
 /* Begin PBXBuildFile section */
 		19A177A3840D1EE472060715 /* UIButton+FYBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A17A26B4939F7B6166FD7E /* UIButton+FYBButton.m */; };
 		19A17CB3F76AE8D34C28E40D /* UIColor+FYBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A176F2000BC31B5CBAF519 /* UIColor+FYBColor.m */; };
-		3D20F3BE1B3965C500B86A30 /* libFyberSDK-8.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D20F3B81B3965C500B86A30 /* libFyberSDK-8.0.0.a */; };
-		3D20F3BF1B3965C500B86A30 /* FYBBackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D20F3BA1B3965C500B86A30 /* FYBBackIcon@2x.png */; };
-		3D20F3C01B3965C500B86A30 /* FYBBackIconiPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D20F3BB1B3965C500B86A30 /* FYBBackIconiPad@2x.png */; };
-		3D20F3C11B3965C500B86A30 /* FYBBackIconiPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D20F3BC1B3965C500B86A30 /* FYBBackIconiPhone@2x.png */; };
-		3D20F3C21B3965C500B86A30 /* FYBCloseX.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D20F3BD1B3965C500B86A30 /* FYBCloseX.png */; };
 		3D20F3C81B39751800B86A30 /* UIFont+FYBFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D20F3C71B39751800B86A30 /* UIFont+FYBFont.m */; };
 		3D20F3CB1B39753C00B86A30 /* FYBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D20F3CA1B39753C00B86A30 /* FYBButton.m */; };
 		3D492EBB1B3098890086E19A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EBA1B3098890086E19A /* AdSupport.framework */; };
