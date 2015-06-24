@@ -39,13 +39,11 @@
     FYBOfferWallViewController *offerWallViewController = [[FYBOfferWallViewController alloc] init];
     
     // You can give the user the possibility to close the Offer Wall while it's loading
-    // offerWallViewController.showCloseButtonOnLoad = YES;
+    offerWallViewController.showCloseButtonOnLoad = YES;
 
     // If the user is redirected to an ad, you can decide whether or not the Offer Wall is automatically dismissed or not with this property
     offerWallViewController.shouldDismissOnRedirect = YES;
 
-    // With this property, a native close button is shown while the offer wall is loading.
-    offerWallViewController.showCloseButtonOnLoad = YES;
 
     // Show the Offer Wall
     [offerWallViewController presentFromViewController:self animated:YES completion:^{
