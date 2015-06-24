@@ -4,6 +4,8 @@
 //
 //
 
+#import <Foundation/Foundation.h>
+
 #import "AppDelegate.h"
 #import "FyberSDK.h"
 #import "UIFont+FYBFont.h"
@@ -14,10 +16,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Set the log level of the FyberSDK
+    [FyberSDK setLoggingLevel:FYBLogLevelVerbose];
+    
     // Start the SDK with the appId and a security token that you can find in
     // the Fyber Dashboard http://dashboard.fyber.com
     FYBSDKOptions *options = [FYBSDKOptions optionsWithAppId:@"22912" securityToken:@"token"];
-    
     [FyberSDK startWithOptions:options];
     
     [self customizeAppearance];
@@ -30,12 +34,11 @@
 - (void)customizeAppearance
 {
     NSDictionary *navBarTitleTextAttributes = @{
-            NSForegroundColorAttributeName : [UIColor fyb_textColor],
-            NSFontAttributeName : [UIFont fyb_navigationBarFont]
+            NSForegroundColorAttributeName: [UIColor fyb_textColor],
+            NSFontAttributeName: [UIFont fyb_navigationBarFont]
     };
 
-
-    [[UINavigationBar appearance] setTitleTextAttributes:navBarTitleTextAttributes];
+    [UINavigationBar appearance].titleTextAttributes = navBarTitleTextAttributes;
     [UINavigationBar appearance].barTintColor = [UIColor fyb_brownColor];
 }
 

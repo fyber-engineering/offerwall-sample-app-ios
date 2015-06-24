@@ -24,6 +24,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     [self.requestButton fyb_setTitle:@"Request\nInterstitial" backgroundColor:[UIColor fyb_brownColor] animated:NO];
 }
 
@@ -41,6 +42,8 @@
 
 - (void)requestInterstitial
 {
+    self.requestButton.enabled = NO;
+    
     NSLog(@"Requesting Interstitial");
     
     [self.requestButton fyb_setTitle:@"Getting\nOffers\n..." backgroundColor:[UIColor fyb_brownColor]];
@@ -74,6 +77,7 @@
 {
     NSLog(@"Did receive offer");
     
+    self.requestButton.enabled = YES;
     self.didReceiveOffers = YES;
     
     [self.requestButton fyb_setTitle:@"Show\nInterstitial" backgroundColor:[UIColor fyb_orangeColor]];
@@ -83,6 +87,7 @@
 {
     NSLog(@"Did not receive any offer");
     
+    self.requestButton.enabled = YES;
     self.didReceiveOffers = NO;
     
     [self.requestButton fyb_setTitle:@"No\ninterstitials" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request\nInterstitial"];
