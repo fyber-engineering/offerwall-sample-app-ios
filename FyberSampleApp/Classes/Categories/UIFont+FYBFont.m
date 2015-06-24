@@ -20,7 +20,7 @@
     return [UIFont fontWithName:@"Circular-Book" size:20.0];
 }
 
-+(NSDictionary *) fyb_buttonParagraphAttributes
++ (NSDictionary *)fyb_buttonParagraphAttributes
 {
     NSMutableParagraphStyle *paragraphStyle = [NSMutableParagraphStyle new];
     paragraphStyle.lineBreakMode = NSLineBreakByWordWrapping;
@@ -29,8 +29,8 @@
     NSDictionary *attributes = @{NSFontAttributeName: [UIFont fyb_buttonFont],
             NSForegroundColorAttributeName: [UIColor fyb_textColor],
             NSParagraphStyleAttributeName: paragraphStyle};
+    
     return attributes;
-
 }
 
 @end

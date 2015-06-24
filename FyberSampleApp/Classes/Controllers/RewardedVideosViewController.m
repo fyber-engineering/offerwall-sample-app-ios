@@ -24,12 +24,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     [self.requestButton fyb_setTitle:@"Request\nVideo" backgroundColor:[UIColor fyb_brownColor] animated:NO];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
 }
 
 
@@ -40,34 +36,37 @@
     if (self.didReceiveOffers) {
         [self showRewardedVideo];
     } else {
-        [self requestRewardedVideos];
+        [self requestRewardedVideo];
     }
-
 }
 
-- (void)requestRewardedVideos
+- (void)requestRewardedVideo
 {
     NSLog(@"Requesting Rewarded Video");
 
     [self.requestButton fyb_setTitle:@"Getting\nOffers\n..." backgroundColor:[UIColor fyb_brownColor]];
 
-
-    // Fetch the Rewarded Video Controller
+    // Get the Rewarded Video Controller
     FYBRewardedVideoController *rewardedVideoController = [FyberSDK rewardedVideoController];
 
-    // Configure the client the way you want (check out the API Reference for more information)
-    rewardedVideoController.delegate = self; // self should conform to the `FYBRewardedVideoControllerDelegate` protocol
+    // Set the delegate of the controller in order to be notified of the controller's state changes
+    rewardedVideoController.delegate = self;
 
-
-    // You can enable or disable a "toast" message shown to the user after the video is fully watched
+    // Enable or disable a "toast" message shown to the user after the video is fully watched
     rewardedVideoController.shouldShowToastForCompletedEngagement = YES;
 
-    // If you set a FYBVirtualCurrencyClientDelegate, the virtual currency will be automatically requested after the user engagement
-    // and your delegate will be informed about its results.
+    // Set the controller's virtualCurrencyClientDelegate to request virtual currency automatically requested after the user engagement
     rewardedVideoController.virtualCurrencyClientDelegate = self;
 
     // Request a Rewarded Video
-    [rewardedVideoController requestVideo];
+    FYBRequestParameters *parameters = [[FYBRequestParameters alloc] init];
+    
+    // Add an optional Placement ID, Currency ID or Custom Parameters to your request
+    // parameters.placementId = @"PLACEMENT_ID";
+    // parameters.currencyId = @"CURRENCY_ID";
+    // [parameters addCustomParameterWithKey:@"param1Key" value:@"param1Value"];
+    
+    [rewardedVideoController requestVideoWithParameters:parameters];
 }
 
 - (void)showRewardedVideo
@@ -76,23 +75,25 @@
     [[FyberSDK rewardedVideoController] presentRewardedVideoFromViewController:self];
 }
 
+
 #pragma mark FYBRewardedVideoControllerDelegate - Request Video
 
 - (void)rewardedVideoControllerDidReceiveVideo:(FYBRewardedVideoController *)rewardedVideoController
 {
     NSLog(@"Did receive offer");
+    
     self.didReceiveOffers = YES;
 
     [self.requestButton fyb_setTitle:@"Show\nVideo" backgroundColor:[UIColor fyb_orangeColor]];
-
 }
 
 - (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didFailToReceiveVideoWithError:(NSError *)error
 {
     NSLog(@"Did not receive any offer");
+    
     self.didReceiveOffers = NO;
-    [self.requestButton fyb_setTitle:@"No\nvideos" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request\nVideo"];
-
+    
+    [self.requestButton fyb_setTitle:@"No\nVideo" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request\nVideo"];
 }
 
 
@@ -100,22 +101,21 @@
 
 - (void)rewardedVideoControllerDidStartVideo:(FYBRewardedVideoController *)rewardedVideoController
 {
-    NSLog(@"Video started");
-
+    NSLog(@"Video Started");
 }
-
 
 - (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didDismissVideoWithReason:(FYBRewardedVideoControllerDismissReason)reason
 {
     self.didReceiveOffers = NO;
-    [self.requestButton fyb_setTitle:@"Video ended" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request\nVideo"];
+    
+    [self.requestButton fyb_setTitle:@"Video Ended" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request\nVideo"];
 }
 
 - (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didFailToShowVideoWithError:(NSError *)error
 {
     self.didReceiveOffers = NO;
+    
     [self.requestButton fyb_setTitle:@"Showing Video Failed" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request\nVideo"];
-
 }
 
 
@@ -130,6 +130,5 @@
 {
     NSLog(@"Failed to receive virtual currency %@", error);
 }
-
 
 @end

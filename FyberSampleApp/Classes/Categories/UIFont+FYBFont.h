@@ -8,9 +8,10 @@
 
 @interface UIFont (FYBFont)
 
-+(UIFont *)fyb_buttonFont;
++ (UIFont *)fyb_buttonFont;
 
-+(UIFont *)fyb_navigationBarFont;
++ (UIFont *)fyb_navigationBarFont;
 
-+(NSDictionary *) fyb_buttonParagraphAttributes;
++ (NSDictionary *)fyb_buttonParagraphAttributes;
+
 @end
