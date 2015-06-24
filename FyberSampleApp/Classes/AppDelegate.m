@@ -40,6 +40,7 @@
 
 
     [[UINavigationBar appearance] setTitleTextAttributes:navBarTitleTextAttributes];
+    [UINavigationBar appearance].barTintColor = [UIColor fyb_brownColor];
 }
 
 @end
