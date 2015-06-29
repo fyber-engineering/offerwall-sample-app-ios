@@ -17,7 +17,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Set the log level of the FyberSDK
-    [FyberSDK setLoggingLevel:FYBLogLevelVerbose];
+    [FyberSDK setLoggingLevel:FYBLogLevelDebug];
     
     // Start the SDK with the appId and a security token that you can find in
     // the Fyber Dashboard http://dashboard.fyber.com
