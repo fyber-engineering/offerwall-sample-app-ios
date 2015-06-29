@@ -101,7 +101,7 @@
     NSLog(@"Interstitial Presented");
 }
 
-- (void)interstitialController:(FYBInterstitialController *)interstitialController didDismissInterstitialWithReason:(FYBInterstitialDismissReason)reason
+- (void)interstitialController:(FYBInterstitialController *)interstitialController didDismissInterstitialWithReason:(FYBInterstitialControllerDismissReason)reason
 {
     self.didReceiveOffers = NO;
     
