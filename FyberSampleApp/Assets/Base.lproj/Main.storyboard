@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -57,10 +57,21 @@
                             <constraint firstItem="bS5-Mc-3CM" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="Efh-LK-bdQ"/>
                             <constraint firstItem="HF2-f4-2UZ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="bS5-Mc-3CM" secondAttribute="bottom" constant="20" id="JeR-Z9-bJN"/>
                             <constraint firstAttribute="centerX" secondItem="HF2-f4-2UZ" secondAttribute="centerX" id="aIk-Db-X2P"/>
+                            <constraint firstItem="HF2-f4-2UZ" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" multiplier="1/4" priority="999" id="qDg-gN-PYU"/>
                             <constraint firstAttribute="trailing" secondItem="bS5-Mc-3CM" secondAttribute="trailing" id="tLn-rS-o9I"/>
                             <constraint firstItem="HF2-f4-2UZ" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" multiplier="1/2" priority="999" id="vec-oN-xZD"/>
                             <constraint firstAttribute="centerY" secondItem="HF2-f4-2UZ" secondAttribute="centerY" id="ysV-cm-n1Y"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="qDg-gN-PYU"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="qDg-gN-PYU"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Offer Wall" image="Offer Wall" id="acW-dT-cKf"/>
                     <connections>
@@ -119,12 +130,23 @@
                             <constraint firstAttribute="trailing" secondItem="ihJ-tW-WIe" secondAttribute="trailing" id="6gn-Ec-Drj"/>
                             <constraint firstItem="Djb-ko-YwX" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fqJ-Bb-gyu" secondAttribute="bottom" constant="20" id="DdJ-jI-wZa"/>
                             <constraint firstItem="ihJ-tW-WIe" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" id="LNL-4e-edb"/>
+                            <constraint firstItem="fqJ-Bb-gyu" firstAttribute="width" secondItem="QS5-Rx-YEW" secondAttribute="width" multiplier="1/4" priority="999" id="TNf-xc-npE"/>
                             <constraint firstItem="ihJ-tW-WIe" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="b1O-IP-sqv"/>
                             <constraint firstItem="fqJ-Bb-gyu" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ihJ-tW-WIe" secondAttribute="bottom" constant="20" id="bXf-bg-aXM"/>
                             <constraint firstAttribute="centerY" secondItem="fqJ-Bb-gyu" secondAttribute="centerY" id="gI6-Zu-eGO"/>
                             <constraint firstAttribute="centerX" secondItem="fqJ-Bb-gyu" secondAttribute="centerX" id="grD-xK-PzI"/>
                             <constraint firstItem="fqJ-Bb-gyu" firstAttribute="width" secondItem="QS5-Rx-YEW" secondAttribute="width" multiplier="1/2" priority="999" id="v2L-g8-fZA"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="TNf-xc-npE"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="TNf-xc-npE"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Rewarded Videos" image="Rewarded Videos" id="cPa-gy-q4n"/>
                     <connections>
@@ -181,6 +203,7 @@
                         <color key="backgroundColor" red="0.72549019609999998" green="0.85098039219999999" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="pMI-xs-Bfb" secondAttribute="trailing" id="0ek-2l-WCV"/>
+                            <constraint firstItem="7aI-Z7-Eqx" firstAttribute="width" secondItem="oMp-aS-2Ej" secondAttribute="width" multiplier="1/4" priority="999" id="E14-nE-0zN"/>
                             <constraint firstItem="pMI-xs-Bfb" firstAttribute="top" secondItem="oMp-aS-2Ej" secondAttribute="top" id="LmT-IQ-FEQ"/>
                             <constraint firstAttribute="centerY" secondItem="7aI-Z7-Eqx" secondAttribute="centerY" id="Naz-0E-aZm"/>
                             <constraint firstItem="WLg-pt-jTQ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="7aI-Z7-Eqx" secondAttribute="bottom" constant="20" id="PpV-mY-Ydj"/>
@@ -189,6 +212,16 @@
                             <constraint firstAttribute="centerX" secondItem="7aI-Z7-Eqx" secondAttribute="centerX" id="tEw-jL-bua"/>
                             <constraint firstItem="7aI-Z7-Eqx" firstAttribute="width" secondItem="oMp-aS-2Ej" secondAttribute="width" multiplier="1/2" priority="999" id="tG7-NI-7ga"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="E14-nE-0zN"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="E14-nE-0zN"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Interstitials" image="Interstitials" id="y9F-0x-1IG"/>
                     <connections>
