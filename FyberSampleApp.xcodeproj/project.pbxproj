@@ -21,12 +21,6 @@
 		5B2203031B2AFEA000266742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A187B1B2AD92600C00C49 /* Main.storyboard */; };
 		5B2203041B2AFEA000266742 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A18801B2AD92600C00C49 /* LaunchScreen.xib */; };
 		5B2ECDB31B2B09E6006C1B1E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */; };
-		5B2ECDC01B2B1E42006C1B1E /* lineto-circular-bold-c.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ECDBA1B2B1E42006C1B1E /* lineto-circular-bold-c.ttf */; };
-		5B2ECDC11B2B1E42006C1B1E /* lineto-circular-bolditalic-c.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ECDBB1B2B1E42006C1B1E /* lineto-circular-bolditalic-c.ttf */; };
-		5B2ECDC21B2B1E42006C1B1E /* lineto-circular-book-c.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ECDBC1B2B1E42006C1B1E /* lineto-circular-book-c.ttf */; };
-		5B2ECDC31B2B1E42006C1B1E /* lineto-circular-bookitalic-c.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ECDBD1B2B1E42006C1B1E /* lineto-circular-bookitalic-c.ttf */; };
-		5B2ECDC41B2B1E42006C1B1E /* lineto-circular-medium-c.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ECDBE1B2B1E42006C1B1E /* lineto-circular-medium-c.ttf */; };
-		5B2ECDC51B2B1E42006C1B1E /* lineto-circular-mediumitalic-c.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ECDBF1B2B1E42006C1B1E /* lineto-circular-mediumitalic-c.ttf */; };
 		5B4A18711B2AD92600C00C49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18701B2AD92600C00C49 /* main.m */; };
 		5B4A18741B2AD92600C00C49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18731B2AD92600C00C49 /* AppDelegate.m */; };
 		5B4A18771B2AD92600C00C49 /* InterstitialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18761B2AD92600C00C49 /* InterstitialsViewController.m */; };
@@ -52,12 +46,6 @@
 		3D492EC41B3098FA0086E19A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		3D492EC61B3099010086E19A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		5B2ECDBA1B2B1E42006C1B1E /* lineto-circular-bold-c.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lineto-circular-bold-c.ttf"; sourceTree = "<group>"; };
-		5B2ECDBB1B2B1E42006C1B1E /* lineto-circular-bolditalic-c.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lineto-circular-bolditalic-c.ttf"; sourceTree = "<group>"; };
-		5B2ECDBC1B2B1E42006C1B1E /* lineto-circular-book-c.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lineto-circular-book-c.ttf"; sourceTree = "<group>"; };
-		5B2ECDBD1B2B1E42006C1B1E /* lineto-circular-bookitalic-c.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lineto-circular-bookitalic-c.ttf"; sourceTree = "<group>"; };
-		5B2ECDBE1B2B1E42006C1B1E /* lineto-circular-medium-c.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lineto-circular-medium-c.ttf"; sourceTree = "<group>"; };
-		5B2ECDBF1B2B1E42006C1B1E /* lineto-circular-mediumitalic-c.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lineto-circular-mediumitalic-c.ttf"; sourceTree = "<group>"; };
 		5B4A186B1B2AD92600C00C49 /* FyberSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FyberSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4A186F1B2AD92600C00C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B4A18701B2AD92600C00C49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -123,30 +111,8 @@
 				5B4A187B1B2AD92600C00C49 /* Main.storyboard */,
 				5B4A187E1B2AD92600C00C49 /* Images.xcassets */,
 				5B4A18801B2AD92600C00C49 /* LaunchScreen.xib */,
-				5B2ECDB81B2B1E42006C1B1E /* Fonts */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		5B2ECDB81B2B1E42006C1B1E /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				5B2ECDB91B2B1E42006C1B1E /* Lineto */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		5B2ECDB91B2B1E42006C1B1E /* Lineto */ = {
-			isa = PBXGroup;
-			children = (
-				5B2ECDBA1B2B1E42006C1B1E /* lineto-circular-bold-c.ttf */,
-				5B2ECDBB1B2B1E42006C1B1E /* lineto-circular-bolditalic-c.ttf */,
-				5B2ECDBC1B2B1E42006C1B1E /* lineto-circular-book-c.ttf */,
-				5B2ECDBD1B2B1E42006C1B1E /* lineto-circular-bookitalic-c.ttf */,
-				5B2ECDBE1B2B1E42006C1B1E /* lineto-circular-medium-c.ttf */,
-				5B2ECDBF1B2B1E42006C1B1E /* lineto-circular-mediumitalic-c.ttf */,
-			);
-			path = Lineto;
 			sourceTree = "<group>";
 		};
 		5B2ECDC61B2B2006006C1B1E /* Categories */ = {
@@ -281,14 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2203031B2AFEA000266742 /* Main.storyboard in Resources */,
-				5B2ECDC51B2B1E42006C1B1E /* lineto-circular-mediumitalic-c.ttf in Resources */,
-				5B2ECDC01B2B1E42006C1B1E /* lineto-circular-bold-c.ttf in Resources */,
-				5B2ECDC11B2B1E42006C1B1E /* lineto-circular-bolditalic-c.ttf in Resources */,
-				5B2ECDC41B2B1E42006C1B1E /* lineto-circular-medium-c.ttf in Resources */,
 				5B2203041B2AFEA000266742 /* LaunchScreen.xib in Resources */,
-				5B2ECDC31B2B1E42006C1B1E /* lineto-circular-bookitalic-c.ttf in Resources */,
 				5B4A187F1B2AD92600C00C49 /* Images.xcassets in Resources */,
-				5B2ECDC21B2B1E42006C1B1E /* lineto-circular-book-c.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

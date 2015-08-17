@@ -12,12 +12,12 @@
 
 + (UIFont *)fyb_buttonFont
 {
-    return [UIFont fontWithName:@"Circular-Book" size:18.0];
+    return [UIFont systemFontOfSize:18.0];
 }
 
 + (UIFont *)fyb_navigationBarFont
 {
-    return [UIFont fontWithName:@"Circular-Book" size:20.0];
+    return [UIFont systemFontOfSize:20.0];
 }
 
 + (NSDictionary *)fyb_buttonParagraphAttributes
