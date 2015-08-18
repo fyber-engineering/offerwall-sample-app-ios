@@ -55,7 +55,7 @@
     rewardedVideoController.delegate = self;
 
     // Enable or disable a "toast" message shown to the user after the video is fully watched
-    rewardedVideoController.shouldShowToastForCompletedEngagement = YES;
+    rewardedVideoController.shouldShowToastOnCompletion = YES;
 
     // Set the controller's virtualCurrencyClientDelegate to request virtual currency automatically requested after the user engagement
     rewardedVideoController.virtualCurrencyClientDelegate = self;
@@ -115,7 +115,7 @@
     [self.requestButton fyb_setTitle:@"Video Ended" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request\nVideo"];
 }
 
-- (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didFailToShowVideoWithError:(NSError *)error
+- (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didFailToStartVideoWithError:(NSError *)error
 {
     self.didReceiveOffers = NO;
     
