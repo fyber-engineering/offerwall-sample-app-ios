@@ -18,11 +18,6 @@
 		3D492EC31B3098F00086E19A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EC21B3098F00086E19A /* MediaPlayer.framework */; };
 		3D492EC51B3098FA0086E19A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EC41B3098FA0086E19A /* StoreKit.framework */; };
 		3D492EC71B3099010086E19A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EC61B3099010086E19A /* SystemConfiguration.framework */; };
-		5953D9031B8372EA0088FC0E /* libFyberSDK-8.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5953D8FD1B8372EA0088FC0E /* libFyberSDK-8.0.0.a */; };
-		5953D9041B8372EB0088FC0E /* FYBBackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5953D8FF1B8372EA0088FC0E /* FYBBackIcon@2x.png */; };
-		5953D9051B8372EB0088FC0E /* FYBBackIconiPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5953D9001B8372EA0088FC0E /* FYBBackIconiPad@2x.png */; };
-		5953D9061B8372EB0088FC0E /* FYBBackIconiPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5953D9011B8372EA0088FC0E /* FYBBackIconiPhone@2x.png */; };
-		5953D9071B8372EB0088FC0E /* FYBCloseX.png in Resources */ = {isa = PBXBuildFile; fileRef = 5953D9021B8372EA0088FC0E /* FYBCloseX.png */; };
 		5B2203031B2AFEA000266742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A187B1B2AD92600C00C49 /* Main.storyboard */; };
 		5B2203041B2AFEA000266742 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A18801B2AD92600C00C49 /* LaunchScreen.xib */; };
 		5B2ECDB31B2B09E6006C1B1E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */; };
@@ -50,52 +45,6 @@
 		3D492EC21B3098F00086E19A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		3D492EC41B3098FA0086E19A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		3D492EC61B3099010086E19A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		5953D8D41B8372EA0088FC0E /* FYB_SDK_versions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYB_SDK_versions.h; sourceTree = "<group>"; };
-		5953D8D51B8372EA0088FC0E /* FYBAdapterOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBAdapterOptions.h; sourceTree = "<group>"; };
-		5953D8D61B8372EA0088FC0E /* FYBBaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBBaseNetwork.h; sourceTree = "<group>"; };
-		5953D8D71B8372EA0088FC0E /* FYBCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBCacheManager.h; sourceTree = "<group>"; };
-		5953D8D81B8372EA0088FC0E /* FYBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBConstants.h; sourceTree = "<group>"; };
-		5953D8D91B8372EA0088FC0E /* FYBError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBError.h; sourceTree = "<group>"; };
-		5953D8DA1B8372EA0088FC0E /* FyberSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FyberSDK.h; sourceTree = "<group>"; };
-		5953D8DB1B8372EA0088FC0E /* FYBInterstitialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBInterstitialController.h; sourceTree = "<group>"; };
-		5953D8DC1B8372EA0088FC0E /* FYBInterstitialControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBInterstitialControllerDelegate.h; sourceTree = "<group>"; };
-		5953D8DD1B8372EA0088FC0E /* FYBInterstitialControllerDismissReason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBInterstitialControllerDismissReason.h; sourceTree = "<group>"; };
-		5953D8DE1B8372EA0088FC0E /* FYBInterstitialControllerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBInterstitialControllerState.h; sourceTree = "<group>"; };
-		5953D8DF1B8372EA0088FC0E /* FYBInterstitialNetworkAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBInterstitialNetworkAdapter.h; sourceTree = "<group>"; };
-		5953D8E01B8372EA0088FC0E /* FYBInterstitialNetworkAdapterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBInterstitialNetworkAdapterDelegate.h; sourceTree = "<group>"; };
-		5953D8E11B8372EA0088FC0E /* FYBLogAppender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBLogAppender.h; sourceTree = "<group>"; };
-		5953D8E21B8372EA0088FC0E /* FYBLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBLogger.h; sourceTree = "<group>"; };
-		5953D8E31B8372EA0088FC0E /* FYBLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBLogLevel.h; sourceTree = "<group>"; };
-		5953D8E41B8372EA0088FC0E /* FYBOfferWallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBOfferWallViewController.h; sourceTree = "<group>"; };
-		5953D8E51B8372EA0088FC0E /* FYBPrecachingNetworkAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBPrecachingNetworkAdapter.h; sourceTree = "<group>"; };
-		5953D8E61B8372EA0088FC0E /* FYBRandomID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBRandomID.h; sourceTree = "<group>"; };
-		5953D8E71B8372EA0088FC0E /* FYBReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBReachability.h; sourceTree = "<group>"; };
-		5953D8E81B8372EA0088FC0E /* FYBRequestParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBRequestParameters.h; sourceTree = "<group>"; };
-		5953D8E91B8372EA0088FC0E /* FYBRewardedVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBRewardedVideoController.h; sourceTree = "<group>"; };
-		5953D8EA1B8372EA0088FC0E /* FYBRewardedVideoControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBRewardedVideoControllerDelegate.h; sourceTree = "<group>"; };
-		5953D8EB1B8372EA0088FC0E /* FYBRewardedVideoControllerDismissReason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBRewardedVideoControllerDismissReason.h; sourceTree = "<group>"; };
-		5953D8EC1B8372EA0088FC0E /* FYBRewardedVideoControllerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBRewardedVideoControllerState.h; sourceTree = "<group>"; };
-		5953D8ED1B8372EA0088FC0E /* FYBRewardedVideoNetworkAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBRewardedVideoNetworkAdapter.h; sourceTree = "<group>"; };
-		5953D8EE1B8372EA0088FC0E /* FYBRewardedVideoNetworkAdapterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBRewardedVideoNetworkAdapterDelegate.h; sourceTree = "<group>"; };
-		5953D8EF1B8372EA0088FC0E /* FYBRewardedVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBRewardedVideoViewController.h; sourceTree = "<group>"; };
-		5953D8F01B8372EA0088FC0E /* FYBSDKOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBSDKOptions.h; sourceTree = "<group>"; };
-		5953D8F11B8372EA0088FC0E /* FYBSystemLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBSystemLogger.h; sourceTree = "<group>"; };
-		5953D8F21B8372EA0088FC0E /* FYBSystemVersionChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBSystemVersionChecker.h; sourceTree = "<group>"; };
-		5953D8F31B8372EA0088FC0E /* FYBTPNGenericAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBTPNGenericAdapter.h; sourceTree = "<group>"; };
-		5953D8F41B8372EA0088FC0E /* FYBTPNMediationTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBTPNMediationTypes.h; sourceTree = "<group>"; };
-		5953D8F51B8372EA0088FC0E /* FYBTPNVideoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBTPNVideoAdapter.h; sourceTree = "<group>"; };
-		5953D8F61B8372EA0088FC0E /* FYBUrlParametersProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBUrlParametersProvider.h; sourceTree = "<group>"; };
-		5953D8F71B8372EA0088FC0E /* FYBUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBUser.h; sourceTree = "<group>"; };
-		5953D8F81B8372EA0088FC0E /* FYBUserConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBUserConstants.h; sourceTree = "<group>"; };
-		5953D8F91B8372EA0088FC0E /* FYBVirtualCurrencyClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBVirtualCurrencyClient.h; sourceTree = "<group>"; };
-		5953D8FA1B8372EA0088FC0E /* FYBVirtualCurrencyClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBVirtualCurrencyClientDelegate.h; sourceTree = "<group>"; };
-		5953D8FB1B8372EA0088FC0E /* FYBVirtualCurrencyErrorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBVirtualCurrencyErrorType.h; sourceTree = "<group>"; };
-		5953D8FC1B8372EA0088FC0E /* FYBVirtualCurrencyResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBVirtualCurrencyResponse.h; sourceTree = "<group>"; };
-		5953D8FD1B8372EA0088FC0E /* libFyberSDK-8.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libFyberSDK-8.0.0.a"; sourceTree = "<group>"; };
-		5953D8FF1B8372EA0088FC0E /* FYBBackIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FYBBackIcon@2x.png"; sourceTree = "<group>"; };
-		5953D9001B8372EA0088FC0E /* FYBBackIconiPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FYBBackIconiPad@2x.png"; sourceTree = "<group>"; };
-		5953D9011B8372EA0088FC0E /* FYBBackIconiPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FYBBackIconiPhone@2x.png"; sourceTree = "<group>"; };
-		5953D9021B8372EA0088FC0E /* FYBCloseX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FYBCloseX.png; sourceTree = "<group>"; };
 		5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5B4A186B1B2AD92600C00C49 /* FyberSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FyberSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4A186F1B2AD92600C00C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,7 +72,6 @@
 				3D492EC31B3098F00086E19A /* MediaPlayer.framework in Frameworks */,
 				3D492EC11B3098EA0086E19A /* CoreTelephony.framework in Frameworks */,
 				3D492EBF1B3098E40086E19A /* CoreLocation.framework in Frameworks */,
-				5953D9031B8372EA0088FC0E /* libFyberSDK-8.0.0.a in Frameworks */,
 				3D492EBD1B3098DF0086E19A /* CoreGraphics.framework in Frameworks */,
 				3D492EBB1B3098890086E19A /* AdSupport.framework in Frameworks */,
 				5B2ECDB31B2B09E6006C1B1E /* QuartzCore.framework in Frameworks */,
@@ -155,67 +103,6 @@
 				5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5953D8D31B8372EA0088FC0E /* fyber-sdk-lib */ = {
-			isa = PBXGroup;
-			children = (
-				5953D8D41B8372EA0088FC0E /* FYB_SDK_versions.h */,
-				5953D8D51B8372EA0088FC0E /* FYBAdapterOptions.h */,
-				5953D8D61B8372EA0088FC0E /* FYBBaseNetwork.h */,
-				5953D8D71B8372EA0088FC0E /* FYBCacheManager.h */,
-				5953D8D81B8372EA0088FC0E /* FYBConstants.h */,
-				5953D8D91B8372EA0088FC0E /* FYBError.h */,
-				5953D8DA1B8372EA0088FC0E /* FyberSDK.h */,
-				5953D8DB1B8372EA0088FC0E /* FYBInterstitialController.h */,
-				5953D8DC1B8372EA0088FC0E /* FYBInterstitialControllerDelegate.h */,
-				5953D8DD1B8372EA0088FC0E /* FYBInterstitialControllerDismissReason.h */,
-				5953D8DE1B8372EA0088FC0E /* FYBInterstitialControllerState.h */,
-				5953D8DF1B8372EA0088FC0E /* FYBInterstitialNetworkAdapter.h */,
-				5953D8E01B8372EA0088FC0E /* FYBInterstitialNetworkAdapterDelegate.h */,
-				5953D8E11B8372EA0088FC0E /* FYBLogAppender.h */,
-				5953D8E21B8372EA0088FC0E /* FYBLogger.h */,
-				5953D8E31B8372EA0088FC0E /* FYBLogLevel.h */,
-				5953D8E41B8372EA0088FC0E /* FYBOfferWallViewController.h */,
-				5953D8E51B8372EA0088FC0E /* FYBPrecachingNetworkAdapter.h */,
-				5953D8E61B8372EA0088FC0E /* FYBRandomID.h */,
-				5953D8E71B8372EA0088FC0E /* FYBReachability.h */,
-				5953D8E81B8372EA0088FC0E /* FYBRequestParameters.h */,
-				5953D8E91B8372EA0088FC0E /* FYBRewardedVideoController.h */,
-				5953D8EA1B8372EA0088FC0E /* FYBRewardedVideoControllerDelegate.h */,
-				5953D8EB1B8372EA0088FC0E /* FYBRewardedVideoControllerDismissReason.h */,
-				5953D8EC1B8372EA0088FC0E /* FYBRewardedVideoControllerState.h */,
-				5953D8ED1B8372EA0088FC0E /* FYBRewardedVideoNetworkAdapter.h */,
-				5953D8EE1B8372EA0088FC0E /* FYBRewardedVideoNetworkAdapterDelegate.h */,
-				5953D8EF1B8372EA0088FC0E /* FYBRewardedVideoViewController.h */,
-				5953D8F01B8372EA0088FC0E /* FYBSDKOptions.h */,
-				5953D8F11B8372EA0088FC0E /* FYBSystemLogger.h */,
-				5953D8F21B8372EA0088FC0E /* FYBSystemVersionChecker.h */,
-				5953D8F31B8372EA0088FC0E /* FYBTPNGenericAdapter.h */,
-				5953D8F41B8372EA0088FC0E /* FYBTPNMediationTypes.h */,
-				5953D8F51B8372EA0088FC0E /* FYBTPNVideoAdapter.h */,
-				5953D8F61B8372EA0088FC0E /* FYBUrlParametersProvider.h */,
-				5953D8F71B8372EA0088FC0E /* FYBUser.h */,
-				5953D8F81B8372EA0088FC0E /* FYBUserConstants.h */,
-				5953D8F91B8372EA0088FC0E /* FYBVirtualCurrencyClient.h */,
-				5953D8FA1B8372EA0088FC0E /* FYBVirtualCurrencyClientDelegate.h */,
-				5953D8FB1B8372EA0088FC0E /* FYBVirtualCurrencyErrorType.h */,
-				5953D8FC1B8372EA0088FC0E /* FYBVirtualCurrencyResponse.h */,
-				5953D8FD1B8372EA0088FC0E /* libFyberSDK-8.0.0.a */,
-				5953D8FE1B8372EA0088FC0E /* Resources */,
-			);
-			path = "fyber-sdk-lib";
-			sourceTree = SOURCE_ROOT;
-		};
-		5953D8FE1B8372EA0088FC0E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5953D8FF1B8372EA0088FC0E /* FYBBackIcon@2x.png */,
-				5953D9001B8372EA0088FC0E /* FYBBackIconiPad@2x.png */,
-				5953D9011B8372EA0088FC0E /* FYBBackIconiPhone@2x.png */,
-				5953D9021B8372EA0088FC0E /* FYBCloseX.png */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		5B2ECDB71B2B1E42006C1B1E /* Assets */ = {
@@ -286,7 +173,6 @@
 		5B4A186D1B2AD92600C00C49 /* FyberSampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				5953D8D31B8372EA0088FC0E /* fyber-sdk-lib */,
 				5B2ECDC71B2B200D006C1B1E /* Classes */,
 				5B2ECDB71B2B1E42006C1B1E /* Assets */,
 				5B4A186E1B2AD92600C00C49 /* Supporting Files */,
