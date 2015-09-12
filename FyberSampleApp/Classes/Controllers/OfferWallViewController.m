@@ -45,7 +45,7 @@
         // Code executed when the Offer Wall is presented
         NSLog(@"Offer was presented");
         
-    } dismiss:^{
+    } dismiss:^(NSError *error){
         
         // Code executed when the Offer Wall is dismissed
         NSLog(@"Offer is dismissed");
