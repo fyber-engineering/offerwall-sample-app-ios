@@ -33,9 +33,6 @@
     // Create an instance of the FYBOfferWallViewController
     FYBOfferWallViewController *offerWallViewController = [[FYBOfferWallViewController alloc] init];
     
-    // Show a close button while the Offer Wall is loading
-    offerWallViewController.showCloseButtonOnLoad = YES;
-
     // Dismiss the Offer Wall when the user leaves your application
     offerWallViewController.shouldDismissOnRedirect = YES;
 
