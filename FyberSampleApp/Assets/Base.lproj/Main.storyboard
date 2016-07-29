@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -21,7 +21,6 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bS5-Mc-3CM">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="SJ5-bq-cCs"/>
                                 </constraints>
@@ -36,7 +35,6 @@
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="HF2-f4-2UZ" customClass="FYBButton">
                                 <rect key="frame" x="150" y="150" width="300" height="300"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="HF2-f4-2UZ" secondAttribute="height" multiplier="1:1" id="XfP-fi-eyt"/>
@@ -49,7 +47,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" red="0.72549019607843135" green="0.85098039215686272" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="bS5-Mc-3CM" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="8S1-cN-fA7"/>
@@ -96,7 +93,6 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihJ-tW-WIe">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="EO1-6L-RGg"/>
                                 </constraints>
@@ -111,7 +107,6 @@
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fqJ-Bb-gyu" customClass="FYBButton">
                                 <rect key="frame" x="150" y="150" width="300" height="300"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="fqJ-Bb-gyu" secondAttribute="height" multiplier="1:1" id="NbA-5y-iDJ"/>
@@ -124,7 +119,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" red="0.72549019607843135" green="0.85098039215686272" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ihJ-tW-WIe" secondAttribute="trailing" id="6gn-Ec-Drj"/>
@@ -171,7 +165,6 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMI-xs-Bfb">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="Jop-x3-Vvn"/>
                                 </constraints>
@@ -186,7 +179,6 @@
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7aI-Z7-Eqx" customClass="FYBButton">
                                 <rect key="frame" x="150" y="150" width="300" height="300"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.2196078431372549" green="0.1803921568627451" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7aI-Z7-Eqx" secondAttribute="height" multiplier="1:1" id="qBF-I5-ufs"/>
@@ -199,7 +191,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" red="0.72549019609999998" green="0.85098039219999999" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="pMI-xs-Bfb" secondAttribute="trailing" id="0ek-2l-WCV"/>
@@ -240,7 +231,6 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
@@ -252,14 +242,102 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="Nba-Ax-niL" kind="relationship" relationship="viewControllers" id="Hlb-t8-FhT"/>
+                        <segue destination="Dye-p8-4CW" kind="relationship" relationship="viewControllers" id="qeI-5l-a1g"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
+        <!--Banners-->
+        <scene sceneID="DQr-No-qHa">
+            <objects>
+                <viewController title="Banners" id="Dye-p8-4CW" customClass="BannersViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vfh-YF-eO1"/>
+                        <viewControllerLayoutGuide type="bottom" id="6BV-7w-Y3O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="B95-9P-OJY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkx-AQ-NYf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="dss-L5-Kvx"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.21960784310000001" green="0.18039215689999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="20"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Fyber" id="hhf-yi-Zt3"/>
+                                </items>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFK-rh-zuK">
+                                <rect key="frame" x="0.0" y="64" width="600" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="s3R-9J-9xn"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bQ9-e1-lUq" customClass="FYBButton">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.18039215689999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bQ9-e1-lUq" secondAttribute="height" multiplier="1:1" id="eqE-LG-EFM"/>
+                                </constraints>
+                                <state key="normal" title="Show Banner">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showOrDestroyBanner:" destination="Dye-p8-4CW" eventType="touchUpInside" id="kKE-ta-lb5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.72549019609999998" green="0.85098039219999999" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="bQ9-e1-lUq" secondAttribute="centerY" id="6ze-rz-12q"/>
+                            <constraint firstItem="bQ9-e1-lUq" firstAttribute="top" relation="greaterThanOrEqual" secondItem="kkx-AQ-NYf" secondAttribute="bottom" constant="20" id="7eq-aw-2bl"/>
+                            <constraint firstItem="6BV-7w-Y3O" firstAttribute="top" relation="greaterThanOrEqual" secondItem="bQ9-e1-lUq" secondAttribute="bottom" constant="20" id="Aqd-TI-hPz"/>
+                            <constraint firstAttribute="trailing" secondItem="kkx-AQ-NYf" secondAttribute="trailing" id="D6y-Em-vGj"/>
+                            <constraint firstItem="kkx-AQ-NYf" firstAttribute="top" secondItem="B95-9P-OJY" secondAttribute="top" id="NBt-wB-pLb"/>
+                            <constraint firstAttribute="trailing" secondItem="SFK-rh-zuK" secondAttribute="trailing" id="Nf6-t3-pJe"/>
+                            <constraint firstItem="SFK-rh-zuK" firstAttribute="leading" secondItem="B95-9P-OJY" secondAttribute="leading" id="O1H-jg-bVT"/>
+                            <constraint firstAttribute="centerX" secondItem="bQ9-e1-lUq" secondAttribute="centerX" id="TYh-kt-qzh"/>
+                            <constraint firstItem="bQ9-e1-lUq" firstAttribute="width" secondItem="B95-9P-OJY" secondAttribute="width" multiplier="1/2" priority="999" id="ZGh-ww-3mN"/>
+                            <constraint firstItem="kkx-AQ-NYf" firstAttribute="leading" secondItem="B95-9P-OJY" secondAttribute="leading" id="a7a-eU-yQA"/>
+                            <constraint firstItem="bQ9-e1-lUq" firstAttribute="top" relation="greaterThanOrEqual" secondItem="SFK-rh-zuK" secondAttribute="bottom" constant="20" id="bla-zK-RvD"/>
+                            <constraint firstItem="SFK-rh-zuK" firstAttribute="top" secondItem="kkx-AQ-NYf" secondAttribute="bottom" id="dzg-tP-J6x"/>
+                            <constraint firstItem="bQ9-e1-lUq" firstAttribute="width" secondItem="B95-9P-OJY" secondAttribute="width" multiplier="1/4" priority="999" id="spF-EZ-v7E"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="spF-EZ-v7E"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="spF-EZ-v7E"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Banners" image="Banners" id="P2g-HP-AYC"/>
+                    <connections>
+                        <outlet property="bannerPlacementView" destination="SFK-rh-zuK" id="wzt-xi-meG"/>
+                        <outlet property="bannerPlacementViewHeightConstraint" destination="s3R-9J-9xn" id="HYt-ko-yLB"/>
+                        <outlet property="navigationBarHeightConstraint" destination="dss-L5-Kvx" id="3AV-ZM-rgI"/>
+                        <outlet property="showButton" destination="bQ9-e1-lUq" id="D1k-6y-m1D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zo0-AL-hyf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="764" y="1505"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Banners" width="30" height="30"/>
         <image name="Interstitials" width="30" height="30"/>
         <image name="Offer Wall" width="30" height="30"/>
         <image name="Rewarded Videos" width="30" height="30"/>

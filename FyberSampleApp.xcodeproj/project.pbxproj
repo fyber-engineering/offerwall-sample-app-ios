@@ -28,6 +28,7 @@
 		5B4A187A1B2AD92600C00C49 /* OfferWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18791B2AD92600C00C49 /* OfferWallViewController.m */; };
 		5B4A187F1B2AD92600C00C49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A187E1B2AD92600C00C49 /* Images.xcassets */; };
 		5B4A18991B2ADAD700C00C49 /* RewardedVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18981B2ADAD700C00C49 /* RewardedVideosViewController.m */; };
+		F40CCF6A1D4A4A9700B552F1 /* BannersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40CCF691D4A4A9700B552F1 /* BannersViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,8 @@
 		5B4A18981B2ADAD700C00C49 /* RewardedVideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardedVideosViewController.m; sourceTree = "<group>"; };
 		5F6F58413D85F7B38A539BB0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F1D9C86C523DBAE6D59624FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40CCF681D4A4A9700B552F1 /* BannersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannersViewController.h; sourceTree = "<group>"; };
+		F40CCF691D4A4A9700B552F1 /* BannersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannersViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,8 @@
 				5B4A18791B2AD92600C00C49 /* OfferWallViewController.m */,
 				5B4A18971B2ADAD700C00C49 /* RewardedVideosViewController.h */,
 				5B4A18981B2ADAD700C00C49 /* RewardedVideosViewController.m */,
+				F40CCF681D4A4A9700B552F1 /* BannersViewController.h */,
+				F40CCF691D4A4A9700B552F1 /* BannersViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -330,6 +335,7 @@
 				5B4A187A1B2AD92600C00C49 /* OfferWallViewController.m in Sources */,
 				5B4A18741B2AD92600C00C49 /* AppDelegate.m in Sources */,
 				3D20F3C81B39751800B86A30 /* UIFont+FYBFont.m in Sources */,
+				F40CCF6A1D4A4A9700B552F1 /* BannersViewController.m in Sources */,
 				5B4A18771B2AD92600C00C49 /* InterstitialsViewController.m in Sources */,
 				5B4A18711B2AD92600C00C49 /* main.m in Sources */,
 				3D20F3CB1B39753C00B86A30 /* FYBButton.m in Sources */,
