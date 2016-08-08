@@ -8,6 +8,8 @@
 #import "FyberSDK.h"
 #import "UIButton+FYBButton.h"
 #import "UIColor+FYBColor.h"
+#import "FYBAdMob.h"
+#import "FYBFacebookAudienceNetwork.h"
 
 @interface BannersViewController ()<FYBBannerControllerDelegate>
 
@@ -31,8 +33,9 @@
     [self.showButton fyb_setTitle:@"Getting\nOffers\n..." backgroundColor:[UIColor fyb_brownColor]];
 
     FYBBannerController *bannerController = [FyberSDK bannerController];
+    NSDictionary *bannerSizes = @{ FYBAdMobNetworkName : [FYBBannerSize adMobSmartPortrait], FYBFacebookNetworkName : [FYBBannerSize facebookSmartx50] };
     bannerController.delegate = self;
-    [bannerController requestBannerWithSizes:nil];
+    [bannerController requestBannerWithSizes:bannerSizes];
 }
 
 - (void)destroyBanner
