@@ -33,7 +33,11 @@
     [self.showButton fyb_setTitle:@"Getting\nOffers\n..." backgroundColor:[UIColor fyb_brownColor]];
 
     FYBBannerController *bannerController = [FyberSDK bannerController];
-    NSDictionary *bannerSizes = @{ FYBAdMobNetworkName : [FYBBannerSize adMobSmartPortrait], FYBFacebookNetworkName : [FYBBannerSize facebookSmartx50] };
+    NSDictionary *bannerSizes = @{
+                                  FYBAdMobNetworkName : [FYBBannerSize adMobSmartPortrait],
+                                  FYBFacebookNetworkName : [FYBBannerSize facebookSmartx50]
+                                  };
+
     bannerController.delegate = self;
     [bannerController requestBannerWithSizes:bannerSizes];
 }
@@ -53,8 +57,7 @@
 {
     if (!self.bannerView) {
         [self requestBanner];
-    }
-    else {
+    } else {
         [self destroyBanner];
     }
 }
