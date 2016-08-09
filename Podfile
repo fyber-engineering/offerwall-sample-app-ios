@@ -1,4 +1,11 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
 
-pod 'FyberSDK', '~> 8.4'
-pod 'FyberMediationFacebookAudienceNetwork', '~> 4.10.1-r5'
-pod 'FyberMediationAdMob', '~> 7.6.0-r4'
+target 'FyberSampleApp' do
+  # FyberSDK
+  pod 'FyberSDK', '~> 8.4'
+
+  # Mediation
+  pod 'FyberMediationFacebookAudienceNetwork', '~> 4.10.1-r5'
+  pod 'FyberMediationAdMob', '~> 7.6.0-r4'
+end
