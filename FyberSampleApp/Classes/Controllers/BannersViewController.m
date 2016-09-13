@@ -95,7 +95,7 @@
 - (void)updateNavigationBarHeight
 {
     CGFloat navigationBarHeight = 64;
-    if (self.bannerView && UIInterfaceOrientationIsLandscape(self.interfaceOrientation)) {
+    if (self.bannerView && UIInterfaceOrientationIsLandscape([UIApplication sharedApplication].statusBarOrientation)) {
         navigationBarHeight = 32;
     }
     
