@@ -6,6 +6,6 @@ target 'FyberSampleApp' do
   pod 'FyberSDK', '~> 8.6.0'
 
   # Mediation
-  pod 'FyberMediationFacebookAudienceNetwork', '~> 4.10.1-r5'
-  pod 'FyberMediationAdMob', '~> 7.6.0-r4'
+  pod 'FyberMediationFacebookAudienceNetwork', '~> 4.10.1.5'
+  pod 'FyberMediationAdMob', '~> 7.13.0.1'
 end
