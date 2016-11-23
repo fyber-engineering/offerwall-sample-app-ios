@@ -30,8 +30,8 @@
     
     [self.showButton setTitle:@"Showing Offer Wall" forState:UIControlStateNormal];
     
-    // Create an instance of the FYBOfferWallViewController
-    FYBOfferWallViewController *offerWallViewController = [[FYBOfferWallViewController alloc] init];
+    // Get the Offerwall Controller
+    FYBOfferWallViewController *offerWallViewController = [FyberSDK offerWallViewController];
     
     // Dismiss the Offer Wall when the user leaves your application
     offerWallViewController.shouldDismissOnRedirect = YES;
