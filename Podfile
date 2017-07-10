@@ -3,7 +3,7 @@ inhibit_all_warnings!
 
 target 'FyberSampleApp' do
   # FyberSDK
-  pod 'FyberSDK', '~> 8.13.0'
+  pod 'FyberSDK', '~> 8.14.0'
 
   # Mediation
   pod 'FyberMediationFacebookAudienceNetwork'
