@@ -3,9 +3,9 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "LaunchImage@2x.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "LaunchImage@2x.png",
       "scale" : "2x"
     },
     {
@@ -20,9 +20,9 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
+      "filename" : "LaunchImageiPad.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "LaunchImageiPad.png",
       "scale" : "1x"
     },
     {
@@ -35,9 +35,9 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
+      "filename" : "LaunchImageiPad@2x.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "LaunchImageiPad@2x.png",
       "scale" : "2x"
     },
     {
