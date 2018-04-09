@@ -8,9 +8,9 @@
 
 @interface UIColor (FYBColor)
 
-+ (UIColor *)fyb_brownColor;
++ (UIColor *)fyb_redColor;
 
-+ (UIColor *)fyb_orangeColor;
++ (UIColor *)fyb_greenColor;
 
 + (UIColor *)fyb_textColor;
 

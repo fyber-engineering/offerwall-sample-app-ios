@@ -1,0 +1,20 @@
+PODS:
+  - FyberMediationAdMob (7.26.0.1):
+    - FyberSDK (~> 8.4)
+  - FyberMediationFacebookAudienceNetwork (4.27.2.1):
+    - FyberSDK (~> 8.4)
+  - FyberSDK (8.20.3)
+
+DEPENDENCIES:
+  - FyberMediationAdMob
+  - FyberMediationFacebookAudienceNetwork
+  - FyberSDK (~> 8.20.1)
+
+SPEC CHECKSUMS:
+  FyberMediationAdMob: bee4580fcde0fc9a97264b3b5a61d600c20023e5
+  FyberMediationFacebookAudienceNetwork: 6eed1ccce8396031319f0f41c595b398917bd1ba
+  FyberSDK: 2677bccb5965b8290f6225b67a0c025979b2d721
+
+PODFILE CHECKSUM: c7768b358bd01cb11618d888086e6342a2fa12c1
+
+COCOAPODS: 1.1.1

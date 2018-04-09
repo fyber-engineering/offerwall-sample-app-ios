@@ -23,14 +23,16 @@
 {
     [super viewDidLoad];
 
-    [self.showButton fyb_setTitle:@"Show\nBanner" backgroundColor:[UIColor fyb_brownColor] animated:NO];
+    self.title = @"Fyber";
+    
+    [self.showButton fyb_setTitle:@"Show\nBanner" backgroundColor:[UIColor fyb_redColor] animated:NO];
     self.bannerPlacementViewHeightConstraint.constant = 0;
 }
 
 
 - (void)requestBanner
 {
-    [self.showButton fyb_setTitle:@"Getting\nOffers\n..." backgroundColor:[UIColor fyb_brownColor]];
+    [self.showButton fyb_setTitle:@"Getting\nOffers\n..." backgroundColor:[UIColor fyb_redColor]];
 
     FYBBannerController *bannerController = [FyberSDK bannerController];
     NSDictionary *bannerSizes = @{
@@ -48,7 +50,7 @@
     self.bannerView = nil;
     self.bannerPlacementViewHeightConstraint.constant = 0;
 
-    [self.showButton fyb_setTitle:@"Show\nBanner" backgroundColor:[UIColor fyb_brownColor] animated:YES];
+    [self.showButton fyb_setTitle:@"Show\nBanner" backgroundColor:[UIColor fyb_redColor] animated:YES];
 }
 
 #pragma mark - Actions
@@ -76,12 +78,12 @@
     [self.bannerPlacementView addSubview:self.bannerView];
     [self updateNavigationBarHeight];
     
-    [self.showButton fyb_setTitle:@"Destroy\nBanner" backgroundColor:[UIColor fyb_orangeColor]];
+    [self.showButton fyb_setTitle:@"Destroy\nBanner" backgroundColor:[UIColor fyb_greenColor]];
 }
 
 - (void)bannerController:(FYBBannerController *)bannerController didFailToReceiveBannerWithError:(NSError *)error
 {
-    [self.showButton fyb_setTitle:@"No\nbanners" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Show\nBanner"];
+    [self.showButton fyb_setTitle:@"No\nbanners" backgroundColor:[UIColor fyb_redColor] restoreTitle:@"Show\nBanner"];
 }
 
 #pragma mark - Orientation changes

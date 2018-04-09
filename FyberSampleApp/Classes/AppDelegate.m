@@ -23,23 +23,8 @@
     // the Fyber Dashboard http://dashboard.fyber.com
     FYBSDKOptions *options = [FYBSDKOptions optionsWithAppId:@"22912" securityToken:@"token"];
     [FyberSDK startWithOptions:options];
-    
-    [self customizeAppearance];
-    
+
     return YES;
-}
-
-#pragma mark - Private
-
-- (void)customizeAppearance
-{
-    NSDictionary *navBarTitleTextAttributes = @{
-            NSForegroundColorAttributeName: [UIColor fyb_textColor],
-            NSFontAttributeName: [UIFont fyb_navigationBarFont]
-    };
-
-    [UINavigationBar appearance].titleTextAttributes = navBarTitleTextAttributes;
-    [UINavigationBar appearance].barTintColor = [UIColor fyb_brownColor];
 }
 
 @end

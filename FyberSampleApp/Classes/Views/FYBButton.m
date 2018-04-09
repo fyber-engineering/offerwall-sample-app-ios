@@ -32,7 +32,7 @@
 {
     self.layer.borderWidth = 2.0f;
     self.layer.borderColor = [UIColor fyb_textColor].CGColor;
-    self.backgroundColor = [UIColor fyb_brownColor];
+    self.backgroundColor = [UIColor fyb_redColor];
     self.titleLabel.font = [UIFont fyb_buttonFont];
 }
 

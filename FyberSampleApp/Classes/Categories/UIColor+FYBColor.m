@@ -9,16 +9,16 @@
 
 @implementation UIColor (FYBColor)
 
-+ (UIColor *)fyb_brownColor
++ (UIColor *)fyb_redColor
 {
-    // #382E2C
-    return [UIColor colorWithRed:0.22 green:0.18 blue:0.17 alpha:1];
+    // #FF2267
+    return [UIColor colorWithRed:1.00 green:0.13 blue:0.40 alpha:1.0];
 }
 
-+ (UIColor *)fyb_orangeColor
++ (UIColor *)fyb_greenColor
 {
-    // #FFB549
-    return [UIColor colorWithRed:1 green:0.71 blue:0.29 alpha:1];
+    // #00D691
+    return [UIColor colorWithRed:0.00 green:0.84 blue:0.57 alpha:1.0];
 }
 
 + (UIColor *)fyb_textColor

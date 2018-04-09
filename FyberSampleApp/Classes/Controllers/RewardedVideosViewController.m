@@ -24,8 +24,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    self.title = @"Fyber";
     
-    [self.requestButton fyb_setTitle:@"Request\nVideo" backgroundColor:[UIColor fyb_brownColor] animated:NO];
+    [self.requestButton fyb_setTitle:@"Request\nVideo" backgroundColor:[UIColor fyb_redColor] animated:NO];
 }
 
 
@@ -46,7 +48,7 @@
     
     NSLog(@"Requesting Rewarded Video");
 
-    [self.requestButton fyb_setTitle:@"Getting\nOffers\n..." backgroundColor:[UIColor fyb_brownColor]];
+    [self.requestButton fyb_setTitle:@"Getting\nOffers\n..." backgroundColor:[UIColor fyb_redColor]];
 
     // Get the Rewarded Video Controller
     FYBRewardedVideoController *rewardedVideoController = [FyberSDK rewardedVideoController];
@@ -87,7 +89,7 @@
     self.requestButton.enabled = YES;
     self.didReceiveOffers = YES;
 
-    [self.requestButton fyb_setTitle:@"Show\nVideo" backgroundColor:[UIColor fyb_orangeColor]];
+    [self.requestButton fyb_setTitle:@"Show\nVideo" backgroundColor:[UIColor fyb_greenColor]];
 }
 
 - (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didFailToReceiveVideoWithError:(NSError *)error
@@ -97,7 +99,7 @@
     self.requestButton.enabled = YES;
     self.didReceiveOffers = NO;
     
-    [self.requestButton fyb_setTitle:@"No\nVideo" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request\nVideo"];
+    [self.requestButton fyb_setTitle:@"No\nVideo" backgroundColor:[UIColor fyb_redColor] restoreTitle:@"Request\nVideo"];
 }
 
 
@@ -112,14 +114,14 @@
 {
     self.didReceiveOffers = NO;
     
-    [self.requestButton fyb_setTitle:@"Video Ended" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request\nVideo"];
+    [self.requestButton fyb_setTitle:@"Video Ended" backgroundColor:[UIColor fyb_redColor] restoreTitle:@"Request\nVideo"];
 }
 
 - (void)rewardedVideoController:(FYBRewardedVideoController *)rewardedVideoController didFailToStartVideoWithError:(NSError *)error
 {
     self.didReceiveOffers = NO;
     
-    [self.requestButton fyb_setTitle:@"Showing Video Failed" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request\nVideo"];
+    [self.requestButton fyb_setTitle:@"Showing Video Failed" backgroundColor:[UIColor fyb_redColor] restoreTitle:@"Request\nVideo"];
 }
 
 

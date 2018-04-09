@@ -24,8 +24,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    self.title = @"Fyber";
     
-    [self.requestButton fyb_setTitle:@"Request\nInterstitial" backgroundColor:[UIColor fyb_brownColor] animated:NO];
+    [self.requestButton fyb_setTitle:@"Request\nInterstitial" backgroundColor:[UIColor fyb_redColor] animated:NO];
 }
 
 
@@ -46,7 +48,7 @@
     
     NSLog(@"Requesting Interstitial");
     
-    [self.requestButton fyb_setTitle:@"Getting\nOffers\n..." backgroundColor:[UIColor fyb_brownColor]];
+    [self.requestButton fyb_setTitle:@"Getting\nOffers\n..." backgroundColor:[UIColor fyb_redColor]];
     
     // Get the Interstitial Controller
     FYBInterstitialController *interstitialController = [FyberSDK interstitialController];
@@ -80,7 +82,7 @@
     self.requestButton.enabled = YES;
     self.didReceiveOffers = YES;
     
-    [self.requestButton fyb_setTitle:@"Show\nInterstitial" backgroundColor:[UIColor fyb_orangeColor]];
+    [self.requestButton fyb_setTitle:@"Show\nInterstitial" backgroundColor:[UIColor fyb_greenColor]];
 }
 
 - (void)interstitialController:(FYBInterstitialController *)interstitialController didFailToReceiveInterstitialWithError:(NSError *)error
@@ -90,7 +92,7 @@
     self.requestButton.enabled = YES;
     self.didReceiveOffers = NO;
     
-    [self.requestButton fyb_setTitle:@"No\ninterstitials" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request\nInterstitial"];
+    [self.requestButton fyb_setTitle:@"No\ninterstitials" backgroundColor:[UIColor fyb_redColor] restoreTitle:@"Request\nInterstitial"];
 }
 
 
@@ -105,14 +107,14 @@
 {
     self.didReceiveOffers = NO;
     
-    [self.requestButton fyb_setTitle:@"Interstitials\ndismissed" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request\nInterstitial"];
+    [self.requestButton fyb_setTitle:@"Interstitials\ndismissed" backgroundColor:[UIColor fyb_redColor] restoreTitle:@"Request\nInterstitial"];
 }
 
 - (void)interstitialController:(FYBInterstitialController *)interstitialController didFailToPresentInterstitialWithError:(NSError *)error
 {
     self.didReceiveOffers = NO;
     
-    [self.requestButton fyb_setTitle:@"Showing Interstitial Failed" backgroundColor:[UIColor fyb_brownColor] restoreTitle:@"Request\nInterstitial"];
+    [self.requestButton fyb_setTitle:@"Showing Interstitial Failed" backgroundColor:[UIColor fyb_redColor] restoreTitle:@"Request\nInterstitial"];
 }
 
 @end
