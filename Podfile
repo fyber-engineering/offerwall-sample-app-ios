@@ -5,7 +5,4 @@ target 'FyberSampleApp' do
   # FyberSDK
   pod 'FyberSDK', '~> 8.21.0'
 
-  # Mediation
-  pod 'FyberMediationFacebookAudienceNetwork'
-  pod 'FyberMediationAdMob'
 end

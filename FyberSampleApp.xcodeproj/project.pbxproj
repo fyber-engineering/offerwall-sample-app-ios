@@ -24,11 +24,8 @@
 		5B2ECDB31B2B09E6006C1B1E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */; };
 		5B4A18711B2AD92600C00C49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18701B2AD92600C00C49 /* main.m */; };
 		5B4A18741B2AD92600C00C49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18731B2AD92600C00C49 /* AppDelegate.m */; };
-		5B4A18771B2AD92600C00C49 /* InterstitialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18761B2AD92600C00C49 /* InterstitialsViewController.m */; };
 		5B4A187A1B2AD92600C00C49 /* OfferWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18791B2AD92600C00C49 /* OfferWallViewController.m */; };
 		5B4A187F1B2AD92600C00C49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A187E1B2AD92600C00C49 /* Images.xcassets */; };
-		5B4A18991B2ADAD700C00C49 /* RewardedVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18981B2ADAD700C00C49 /* RewardedVideosViewController.m */; };
-		F40CCF6A1D4A4A9700B552F1 /* BannersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40CCF691D4A4A9700B552F1 /* BannersViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,18 +52,12 @@
 		5B4A18701B2AD92600C00C49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B4A18721B2AD92600C00C49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B4A18731B2AD92600C00C49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B4A18751B2AD92600C00C49 /* InterstitialsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterstitialsViewController.h; sourceTree = "<group>"; };
-		5B4A18761B2AD92600C00C49 /* InterstitialsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterstitialsViewController.m; sourceTree = "<group>"; };
 		5B4A18781B2AD92600C00C49 /* OfferWallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfferWallViewController.h; sourceTree = "<group>"; };
 		5B4A18791B2AD92600C00C49 /* OfferWallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfferWallViewController.m; sourceTree = "<group>"; };
 		5B4A187C1B2AD92600C00C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B4A187E1B2AD92600C00C49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5B4A18811B2AD92600C00C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		5B4A18971B2ADAD700C00C49 /* RewardedVideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardedVideosViewController.h; sourceTree = "<group>"; };
-		5B4A18981B2ADAD700C00C49 /* RewardedVideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardedVideosViewController.m; sourceTree = "<group>"; };
 		88A85F533AD279137650244A /* libPods-FyberSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FyberSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F40CCF681D4A4A9700B552F1 /* BannersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannersViewController.h; sourceTree = "<group>"; };
-		F40CCF691D4A4A9700B552F1 /* BannersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannersViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,14 +143,8 @@
 		5B2ECDC81B2B2015006C1B1E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5B4A18751B2AD92600C00C49 /* InterstitialsViewController.h */,
-				5B4A18761B2AD92600C00C49 /* InterstitialsViewController.m */,
 				5B4A18781B2AD92600C00C49 /* OfferWallViewController.h */,
 				5B4A18791B2AD92600C00C49 /* OfferWallViewController.m */,
-				5B4A18971B2ADAD700C00C49 /* RewardedVideosViewController.h */,
-				5B4A18981B2ADAD700C00C49 /* RewardedVideosViewController.m */,
-				F40CCF681D4A4A9700B552F1 /* BannersViewController.h */,
-				F40CCF691D4A4A9700B552F1 /* BannersViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -331,12 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B4A18991B2ADAD700C00C49 /* RewardedVideosViewController.m in Sources */,
 				5B4A187A1B2AD92600C00C49 /* OfferWallViewController.m in Sources */,
 				5B4A18741B2AD92600C00C49 /* AppDelegate.m in Sources */,
 				3D20F3C81B39751800B86A30 /* UIFont+FYBFont.m in Sources */,
-				F40CCF6A1D4A4A9700B552F1 /* BannersViewController.m in Sources */,
-				5B4A18771B2AD92600C00C49 /* InterstitialsViewController.m in Sources */,
 				5B4A18711B2AD92600C00C49 /* main.m in Sources */,
 				3D20F3CB1B39753C00B86A30 /* FYBButton.m in Sources */,
 				19A177A3840D1EE472060715 /* UIButton+FYBButton.m in Sources */,
