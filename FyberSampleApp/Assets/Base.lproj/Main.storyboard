@@ -40,7 +40,7 @@
                             <constraint firstItem="HF2-f4-2UZ" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="skp-dE-Bdr"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Offer Wall" image="Offer Wall" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Offer Wall" image="Offerwall" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="showButton" destination="HF2-f4-2UZ" id="vja-82-xhN"/>
                     </connections>
@@ -51,6 +51,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Offer Wall" width="30" height="30"/>
+        <image name="Offerwall" width="512" height="512"/>
     </resources>
 </document>
