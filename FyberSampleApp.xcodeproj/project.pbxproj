@@ -20,15 +20,12 @@
 		3D492EC51B3098FA0086E19A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EC41B3098FA0086E19A /* StoreKit.framework */; };
 		3D492EC71B3099010086E19A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EC61B3099010086E19A /* SystemConfiguration.framework */; };
 		5B2203031B2AFEA000266742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A187B1B2AD92600C00C49 /* Main.storyboard */; };
-		5B2203041B2AFEA000266742 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A18801B2AD92600C00C49 /* LaunchScreen.xib */; };
 		5B2ECDB31B2B09E6006C1B1E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */; };
 		5B4A18711B2AD92600C00C49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18701B2AD92600C00C49 /* main.m */; };
 		5B4A18741B2AD92600C00C49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18731B2AD92600C00C49 /* AppDelegate.m */; };
-		5B4A18771B2AD92600C00C49 /* InterstitialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18761B2AD92600C00C49 /* InterstitialsViewController.m */; };
 		5B4A187A1B2AD92600C00C49 /* OfferWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18791B2AD92600C00C49 /* OfferWallViewController.m */; };
 		5B4A187F1B2AD92600C00C49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A187E1B2AD92600C00C49 /* Images.xcassets */; };
-		5B4A18991B2ADAD700C00C49 /* RewardedVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A18981B2ADAD700C00C49 /* RewardedVideosViewController.m */; };
-		F40CCF6A1D4A4A9700B552F1 /* BannersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40CCF691D4A4A9700B552F1 /* BannersViewController.m */; };
+		D325516F2369CF7C00AEB1A1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D325516E2369CF7C00AEB1A1 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,18 +52,12 @@
 		5B4A18701B2AD92600C00C49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B4A18721B2AD92600C00C49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B4A18731B2AD92600C00C49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B4A18751B2AD92600C00C49 /* InterstitialsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterstitialsViewController.h; sourceTree = "<group>"; };
-		5B4A18761B2AD92600C00C49 /* InterstitialsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterstitialsViewController.m; sourceTree = "<group>"; };
 		5B4A18781B2AD92600C00C49 /* OfferWallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfferWallViewController.h; sourceTree = "<group>"; };
 		5B4A18791B2AD92600C00C49 /* OfferWallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfferWallViewController.m; sourceTree = "<group>"; };
 		5B4A187C1B2AD92600C00C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B4A187E1B2AD92600C00C49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5B4A18811B2AD92600C00C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		5B4A18971B2ADAD700C00C49 /* RewardedVideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardedVideosViewController.h; sourceTree = "<group>"; };
-		5B4A18981B2ADAD700C00C49 /* RewardedVideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardedVideosViewController.m; sourceTree = "<group>"; };
 		88A85F533AD279137650244A /* libPods-FyberSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FyberSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F40CCF681D4A4A9700B552F1 /* BannersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannersViewController.h; sourceTree = "<group>"; };
-		F40CCF691D4A4A9700B552F1 /* BannersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannersViewController.m; sourceTree = "<group>"; };
+		D325516E2369CF7C00AEB1A1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +110,7 @@
 			children = (
 				5B4A187B1B2AD92600C00C49 /* Main.storyboard */,
 				5B4A187E1B2AD92600C00C49 /* Images.xcassets */,
-				5B4A18801B2AD92600C00C49 /* LaunchScreen.xib */,
+				D325516E2369CF7C00AEB1A1 /* Launch Screen.storyboard */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -152,14 +143,8 @@
 		5B2ECDC81B2B2015006C1B1E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5B4A18751B2AD92600C00C49 /* InterstitialsViewController.h */,
-				5B4A18761B2AD92600C00C49 /* InterstitialsViewController.m */,
 				5B4A18781B2AD92600C00C49 /* OfferWallViewController.h */,
 				5B4A18791B2AD92600C00C49 /* OfferWallViewController.m */,
-				5B4A18971B2ADAD700C00C49 /* RewardedVideosViewController.h */,
-				5B4A18981B2ADAD700C00C49 /* RewardedVideosViewController.m */,
-				F40CCF681D4A4A9700B552F1 /* BannersViewController.h */,
-				F40CCF691D4A4A9700B552F1 /* BannersViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -239,7 +224,7 @@
 		5B4A18631B2AD92600C00C49 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = Fyber;
 				TargetAttributes = {
 					5B4A186A1B2AD92600C00C49 = {
@@ -249,7 +234,7 @@
 			};
 			buildConfigurationList = 5B4A18661B2AD92600C00C49 /* Build configuration list for PBXProject "FyberSampleApp" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -271,7 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2203031B2AFEA000266742 /* Main.storyboard in Resources */,
-				5B2203041B2AFEA000266742 /* LaunchScreen.xib in Resources */,
+				D325516F2369CF7C00AEB1A1 /* Launch Screen.storyboard in Resources */,
 				5B4A187F1B2AD92600C00C49 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,12 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B4A18991B2ADAD700C00C49 /* RewardedVideosViewController.m in Sources */,
 				5B4A187A1B2AD92600C00C49 /* OfferWallViewController.m in Sources */,
 				5B4A18741B2AD92600C00C49 /* AppDelegate.m in Sources */,
 				3D20F3C81B39751800B86A30 /* UIFont+FYBFont.m in Sources */,
-				F40CCF6A1D4A4A9700B552F1 /* BannersViewController.m in Sources */,
-				5B4A18771B2AD92600C00C49 /* InterstitialsViewController.m in Sources */,
 				5B4A18711B2AD92600C00C49 /* main.m in Sources */,
 				3D20F3CB1B39753C00B86A30 /* FYBButton.m in Sources */,
 				19A177A3840D1EE472060715 /* UIButton+FYBButton.m in Sources */,
@@ -372,18 +354,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -407,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -420,18 +411,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -448,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,7 +462,7 @@
 			baseConfigurationReference = 33CEF9712FD12BF187FA492C /* Pods-FyberSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
@@ -473,7 +473,7 @@
 					"\"${PODS_ROOT}/Headers/Public/FyberSDK\"",
 				);
 				INFOPLIST_FILE = "FyberSampleApp/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -488,7 +488,7 @@
 			baseConfigurationReference = 12C5721362EA9BDC9BD18681 /* Pods-FyberSampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
@@ -499,7 +499,7 @@
 					"\"${PODS_ROOT}/Headers/Public/FyberSDK\"",
 				);
 				INFOPLIST_FILE = "FyberSampleApp/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
