@@ -3,6 +3,6 @@ inhibit_all_warnings!
 
 target 'FyberSampleApp' do
   # FyberSDK
-  pod 'FyberSDK', '~> 9.0.0'
+  pod 'FyberSDK', '~> 9.1.0'
 
 end
