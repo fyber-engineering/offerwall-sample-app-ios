@@ -17,7 +17,6 @@
 		3D492EBF1B3098E40086E19A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EBE1B3098E40086E19A /* CoreLocation.framework */; };
 		3D492EC11B3098EA0086E19A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EC01B3098EA0086E19A /* CoreTelephony.framework */; };
 		3D492EC31B3098F00086E19A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EC21B3098F00086E19A /* MediaPlayer.framework */; };
-		3D492EC51B3098FA0086E19A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EC41B3098FA0086E19A /* StoreKit.framework */; };
 		3D492EC71B3099010086E19A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EC61B3099010086E19A /* SystemConfiguration.framework */; };
 		5B2203031B2AFEA000266742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A187B1B2AD92600C00C49 /* Main.storyboard */; };
 		5B2ECDB31B2B09E6006C1B1E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */; };
@@ -44,7 +43,6 @@
 		3D492EBE1B3098E40086E19A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3D492EC01B3098EA0086E19A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		3D492EC21B3098F00086E19A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		3D492EC41B3098FA0086E19A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		3D492EC61B3099010086E19A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5B4A186B1B2AD92600C00C49 /* FyberSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FyberSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +64,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D492EC71B3099010086E19A /* SystemConfiguration.framework in Frameworks */,
-				3D492EC51B3098FA0086E19A /* StoreKit.framework in Frameworks */,
 				3D492EC31B3098F00086E19A /* MediaPlayer.framework in Frameworks */,
 				3D492EC11B3098EA0086E19A /* CoreTelephony.framework in Frameworks */,
 				3D492EBF1B3098E40086E19A /* CoreLocation.framework in Frameworks */,
@@ -93,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				3D492EC61B3099010086E19A /* SystemConfiguration.framework */,
-				3D492EC41B3098FA0086E19A /* StoreKit.framework */,
 				3D492EC21B3098F00086E19A /* MediaPlayer.framework */,
 				3D492EC01B3098EA0086E19A /* CoreTelephony.framework */,
 				3D492EBE1B3098E40086E19A /* CoreLocation.framework */,
@@ -206,7 +202,6 @@
 				5B4A18671B2AD92600C00C49 /* Sources */,
 				5B4A18681B2AD92600C00C49 /* Frameworks */,
 				5B4A18691B2AD92600C00C49 /* Resources */,
-				36EA4C6AB779A6397A32A715 /* [CP] Embed Pods Frameworks */,
 				7736401418649B4C65F9C163 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -264,34 +259,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		36EA4C6AB779A6397A32A715 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FyberSampleApp/Pods-FyberSampleApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7736401418649B4C65F9C163 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FyberSampleApp/Pods-FyberSampleApp-resources.sh",
+				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.9.1.1/fyber-sdk-lib/Resources/FYBBackIcon@2x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FYBBackIcon@2x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FyberSampleApp/Pods-FyberSampleApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FyberSampleApp/Pods-FyberSampleApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B320A928801992D83C147873 /* [CP] Check Pods Manifest.lock */ = {
@@ -300,13 +283,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FyberSampleApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -335,15 +321,6 @@
 				5B4A187C1B2AD92600C00C49 /* Base */,
 			);
 			name = Main.storyboard;
-			path = .;
-			sourceTree = "<group>";
-		};
-		5B4A18801B2AD92600C00C49 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B4A18811B2AD92600C00C49 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			path = .;
 			sourceTree = "<group>";
 		};
