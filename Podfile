@@ -1,8 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '9.0'
 inhibit_all_warnings!
 
 target 'FyberSampleApp' do
   # FyberSDK
-  pod 'FyberSDK', '~> 9.1.1'
+  pod 'FyberSDK', '~> 9.2.0'
 
 end

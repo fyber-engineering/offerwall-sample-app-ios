@@ -202,7 +202,7 @@
 				5B4A18671B2AD92600C00C49 /* Sources */,
 				5B4A18681B2AD92600C00C49 /* Frameworks */,
 				5B4A18691B2AD92600C00C49 /* Resources */,
-				7736401418649B4C65F9C163 /* [CP] Copy Pods Resources */,
+				19FA47CBCD4514FD7C46877D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,14 +259,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7736401418649B4C65F9C163 /* [CP] Copy Pods Resources */ = {
+		19FA47CBCD4514FD7C46877D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FyberSampleApp/Pods-FyberSampleApp-resources.sh",
-				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.9.1.1/fyber-sdk-lib/Resources/FYBBackIcon@2x.png",
+				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.9.2.0/fyber-sdk-lib/Resources/FYBBackIcon@2x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
