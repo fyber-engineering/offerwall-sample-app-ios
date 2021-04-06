@@ -266,7 +266,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FyberSampleApp/Pods-FyberSampleApp-resources.sh",
-				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.9.2.0/fyber-sdk-lib/Resources/FYBBackIcon@2x.png",
+				"${PODS_ROOT}/FyberSDK/OfferWall_iOS_SDK_v.9.2.0/fyber-sdk-lib/Resources/FYBBackIcon@2x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
