@@ -1,8 +1,8 @@
 PODS:
-  - FyberSDK (9.2.0)
+  - FyberSDK (9.2.1)
 
 DEPENDENCIES:
-  - FyberSDK (~> 9.2.0)
+  - FyberSDK (~> 9.2.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
