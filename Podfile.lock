@@ -1,16 +1,16 @@
 PODS:
-  - FyberSDK (9.2.0)
+  - FyberSDK (9.2.1)
 
 DEPENDENCIES:
-  - FyberSDK (~> 9.2.0)
+  - FyberSDK (~> 9.2.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - FyberSDK
 
 SPEC CHECKSUMS:
-  FyberSDK: 09a9e675513d6aff51de90f97be94b8e192b5a3c
+  FyberSDK: af96b8c702c391179f9e4c62f8bb22effaa840a8
 
-PODFILE CHECKSUM: 287da0136520545231beff73a0ef1a9a2f10afbb
+PODFILE CHECKSUM: 6fecce2d4e7f9458c8cdfd730f5a94c41a806f2f
 
 COCOAPODS: 1.9.3
