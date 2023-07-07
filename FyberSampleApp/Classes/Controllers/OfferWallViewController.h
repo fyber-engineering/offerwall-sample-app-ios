@@ -6,7 +6,6 @@
 
 #import <UIKit/UIKit.h>
 
-
 @interface OfferWallViewController : UIViewController
 
 @property(nonatomic, weak) IBOutlet UIButton *showButton;
