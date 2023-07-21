@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0046225BC261EE2AC5FA7214 /* libPods-FyberSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A85F533AD279137650244A /* libPods-FyberSampleApp.a */; };
 		19A177A3840D1EE472060715 /* UIButton+FYBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A17A26B4939F7B6166FD7E /* UIButton+FYBButton.m */; };
 		19A17CB3F76AE8D34C28E40D /* UIColor+FYBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A176F2000BC31B5CBAF519 /* UIColor+FYBColor.m */; };
+		1C23318EFA8EC022F4947733 /* libPods-FyberSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4880582F7345D74D06BB76AB /* libPods-FyberSampleApp.a */; };
 		3D20F3C81B39751800B86A30 /* UIFont+FYBFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D20F3C71B39751800B86A30 /* UIFont+FYBFont.m */; };
 		3D20F3CB1B39753C00B86A30 /* FYBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D20F3CA1B39753C00B86A30 /* FYBButton.m */; };
 		3D492EBB1B3098890086E19A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D492EBA1B3098890086E19A /* AdSupport.framework */; };
@@ -44,6 +44,7 @@
 		3D492EC01B3098EA0086E19A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		3D492EC21B3098F00086E19A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		3D492EC61B3099010086E19A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4880582F7345D74D06BB76AB /* libPods-FyberSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FyberSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5B4A186B1B2AD92600C00C49 /* FyberSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FyberSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4A186F1B2AD92600C00C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		5B4A18791B2AD92600C00C49 /* OfferWallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfferWallViewController.m; sourceTree = "<group>"; };
 		5B4A187C1B2AD92600C00C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B4A187E1B2AD92600C00C49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		88A85F533AD279137650244A /* libPods-FyberSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FyberSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D325516E2369CF7C00AEB1A1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +70,7 @@
 				3D492EBD1B3098DF0086E19A /* CoreGraphics.framework in Frameworks */,
 				3D492EBB1B3098890086E19A /* AdSupport.framework in Frameworks */,
 				5B2ECDB31B2B09E6006C1B1E /* QuartzCore.framework in Frameworks */,
-				0046225BC261EE2AC5FA7214 /* libPods-FyberSampleApp.a in Frameworks */,
+				1C23318EFA8EC022F4947733 /* libPods-FyberSampleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 				3D492EBC1B3098DF0086E19A /* CoreGraphics.framework */,
 				3D492EBA1B3098890086E19A /* AdSupport.framework */,
 				5B2ECDB21B2B09E6006C1B1E /* QuartzCore.framework */,
-				88A85F533AD279137650244A /* libPods-FyberSampleApp.a */,
+				4880582F7345D74D06BB76AB /* libPods-FyberSampleApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,6 +202,7 @@
 				5B4A18671B2AD92600C00C49 /* Sources */,
 				5B4A18681B2AD92600C00C49 /* Frameworks */,
 				5B4A18691B2AD92600C00C49 /* Resources */,
+				339A958B88A9B9BBC0D0243B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +259,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		339A958B88A9B9BBC0D0243B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FyberSampleApp/Pods-FyberSampleApp-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FairBidSDK/FairBidSDK.framework/FairBidSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Fyber_FMPAdapter/FMPAdapter.framework/FMPAdapter",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Fyber_Marketplace_SDK/IASDKCore.framework/IASDKCore",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FairBidSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMPAdapter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IASDKCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FyberSampleApp/Pods-FyberSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B320A928801992D83C147873 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
