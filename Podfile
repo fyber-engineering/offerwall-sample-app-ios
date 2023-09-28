@@ -3,6 +3,6 @@ inhibit_all_warnings!
 
 target 'FyberSampleApp' do
   # FairBidSDK
-  pod 'FairBidSDK', '3.42.0'
+  pod 'FairBidSDK', '3.43.0'
 
 end
