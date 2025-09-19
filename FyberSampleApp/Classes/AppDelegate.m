@@ -24,7 +24,7 @@
     // Start the SDK with the appId and a security token that you can find in
     // the Fyber Dashboard http://dashboard.fyber.com
     OFWVirtualCurrencySettings *vcsSettings = [OFWVirtualCurrencySettings virtualCurrencySettingsWithSecurityToken:@"sec_135708" delegate:self];
-    [OfferWall startWithAppId:@"135708" delegate:self settings:vcsSettings completion:^(OFWError * _Nullable error) {
+    [OfferWall startWithAppId:@"135708" delegate:self settings:vcsSettings saltToken:@"63069c5cdc83c56a7a18ef08bb22d183a2b46867ad25b64f5151537d861c0b08" completion:^(OFWError * _Nullable error) {
         if (error) {
             NSLog(@"Failed to start");
         }
