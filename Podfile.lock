@@ -1,12 +1,12 @@
 PODS:
-  - FairBidSDK (3.66.1):
-    - Fyber_FMPAdapter (= 8.4.4)
-  - Fyber_FMPAdapter (8.4.4):
-    - Fyber_Marketplace_SDK (= 8.4.4)
-  - Fyber_Marketplace_SDK (8.4.4)
+  - FairBidSDK (3.67.0):
+    - Fyber_FMPAdapter (= 8.4.7)
+  - Fyber_FMPAdapter (8.4.7):
+    - Fyber_Marketplace_SDK (= 8.4.7)
+  - Fyber_Marketplace_SDK (8.4.7)
 
 DEPENDENCIES:
-  - FairBidSDK (= 3.66.1)
+  - FairBidSDK (= 3.67.0)
 
 SPEC REPOS:
   trunk:
@@ -15,10 +15,10 @@ SPEC REPOS:
     - Fyber_Marketplace_SDK
 
 SPEC CHECKSUMS:
-  FairBidSDK: 6081d35b2323cd7561b017b67ce0bf04868c684b
-  Fyber_FMPAdapter: 17891863e033435f9e352805a6beac6b2502af06
-  Fyber_Marketplace_SDK: 37270b423a1684c3d5335db03f0c9798a31d8dd9
+  FairBidSDK: 0d495f56429f75d57204359a889454a23283e440
+  Fyber_FMPAdapter: 0e558f00536733e487249b4bd30817405d2dd70a
+  Fyber_Marketplace_SDK: 1a880b530921ddf07a74982e163ab56eaf90e932
 
-PODFILE CHECKSUM: 5cdc5e3114dcff9d18b8f7cd88e379fe0ede4a8a
+PODFILE CHECKSUM: 9bfe193b469e9a1924aa16e3e5c138c170a682b9
 
 COCOAPODS: 1.16.2
